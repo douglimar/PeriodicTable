@@ -4,6 +4,7 @@ import android.annotation.TargetApi;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
@@ -192,6 +193,10 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(MainActivity.this, "Clique e Funfou...", Toast.LENGTH_SHORT).show();
+
+                Intent intent = new Intent(MainActivity.this, ResultActivity.class);
+                startActivity(intent);
+
                 //showMessage("Cliquei no GridResult");
                 //MyAlertDialog dialog = new MyAlertDialog();
                 //dialog.showDialog();
