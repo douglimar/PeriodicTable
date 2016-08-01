@@ -32,6 +32,9 @@ import org.w3c.dom.Text;
 
 public class MainActivity extends AppCompatActivity {
 
+    public static final String EXTRA_MESSAGE = new String ("br.com.ddmsoftware.periodictable.MESSAGE");
+
+
     TextView tvNroAtomico;
     TextView tvSimbolo;
     TextView tvNome;
@@ -195,17 +198,12 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this, "Clique e Funfou...", Toast.LENGTH_SHORT).show();
 
                 Intent intent = new Intent(MainActivity.this, ResultActivity.class);
+
+                String message = tvSimbolo.getText().toString();
+
+                intent.putExtra(EXTRA_MESSAGE, message);
+
                 startActivity(intent);
-
-                //showMessage("Cliquei no GridResult");
-                //MyAlertDialog dialog = new MyAlertDialog();
-                //dialog.showDialog();
-                //wv.setBackgroundColor(Color.GREEN);
-                //WebSettings webSettings = wv.getSettings();
-                //webSettings.setJavaScriptEnabled(true);
-
-                //wv.loadUrl("www.google.com.br");
-                //wv.setVisibility(View.VISIBLE);
 
             }
         });
