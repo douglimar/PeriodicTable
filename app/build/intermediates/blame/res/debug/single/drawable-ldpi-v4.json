@@ -1,10 +1,6 @@
 [
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\common_ic_googleplayservices.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\drawable-ldpi-v4\\common_ic_googleplayservices.png"
-    },
-    {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/common_ic_googleplayservices.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/res/drawable-ldpi-v4/common_ic_googleplayservices.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\common_ic_googleplayservices.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\drawable-ldpi-v4\\common_ic_googleplayservices.png"
     }
 ]

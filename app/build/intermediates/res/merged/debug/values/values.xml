@@ -341,6 +341,7 @@
     <string name="alert_dialog_ok">OK</string>
     <string name="alert_dialog_two_buttons_title">Titulo da Bagaça</string>
     <string name="app_name">PeriodicTable</string>
+    <string name="btnBack">Voltar</string>
     <string name="cast_casting_to_device">Casting to %1$s</string>
     <string name="cast_disconnect">Disconnect</string>
     <string name="cast_forward">Forward</string>
