@@ -43,6 +43,9 @@ public class ResultActivity extends AppCompatActivity {
         spec.setIndicator("Wiki");
         tabHost.addTab(spec);
 
+        // Add more loines
+        //
+
 
 
         WebView browser = (WebView) findViewById(R.id.webView);
