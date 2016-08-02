@@ -43,10 +43,7 @@ public class ResultActivity extends AppCompatActivity {
         spec.setIndicator("Wiki");
         tabHost.addTab(spec);
 
-        // Add more loines
-        //
-
-
+        // Add more lines
 
         WebView browser = (WebView) findViewById(R.id.webView);
         Intent intent = getIntent();
@@ -64,7 +61,7 @@ public class ResultActivity extends AppCompatActivity {
             // Carrega Imagens Automaticamente
             browser.getSettings().setLoadsImagesAutomatically(true);
             // Habilita Suporte ao Java SCript
-            browser.getSettings().setJavaScriptEnabled(true);
+            //browser.getSettings().setJavaScriptEnabled(true);
 
             // habilita As barras de rolagem lateral
             browser.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
