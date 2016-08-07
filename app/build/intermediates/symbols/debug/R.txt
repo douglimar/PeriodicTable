@@ -1128,7 +1128,7 @@ int id tvHafnium 0x7f0c00d2
 int id tvHassium 0x7f0c00ff
 int id tvHelium 0x7f0c00b3
 int id tvHolmium 0x7f0c0114
-int id tvHydrogen 0x7f0c00b2
+int id tvHydrogenium 0x7f0c00b2
 int id tvIndium 0x7f0c00ca
 int id tvIodine 0x7f0c00ce
 int id tvIridium 0x7f0c00d7

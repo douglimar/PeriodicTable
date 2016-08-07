@@ -33,41 +33,41 @@ public class MainActivity extends AppCompatActivity {
     GridLayout gridResult;
     periodicTablePortuguese pt;
 
-    TextView tvHydrogen;
+    TextView tvHydrogenium;
     TextView tvHelium;
     TextView tvLithium;
     TextView tvBeryllium;
-    TextView tvBoron;
-    TextView tvCarbon;
-    TextView tvNitrogen;
-    TextView tvOxygen;
-    TextView tvFluorine;
+    TextView tvBorium;
+    TextView tvCarbonium;
+    TextView tvNitrogenium;
+    TextView tvOxygenium;
+    TextView tvFluorum;
     TextView tvNeon;
-    TextView tvSodium;
+    TextView tvNatrium;
     TextView tvMagnesium;
-    TextView tvAluminium;
-    TextView tvSilicon;
+    TextView tvAlumen;
+    TextView tvSilicium;
     TextView tvPhosphorus;
-    TextView tvSulfur;
-    TextView tvChlorine;
+    TextView tvSulphur;
+    TextView tvClorum;
     TextView tvArgon;
-    TextView tvPotassium;
+    TextView tvKalium;
     TextView tvCalcium;
     TextView tvScandium;
     TextView tvTitanium;
     TextView tvVanadium;
     TextView tvChromium;
-    TextView tvManganese;
-    TextView tvIron;
-    TextView tvCobalt;
-    TextView tvNickel;
-    TextView tvCopper;
-    TextView tvZinc;
-    TextView tvGallium;
+    TextView tvManganum;
+    TextView tvFerrum;
+    TextView tvCobaltum;
+    TextView tvNiccolum;
+    TextView tvCuprum;
+    TextView tvZincum;
+    TextView tvGalium;
     TextView tvGermanium;
-    TextView tvArsenic;
+    TextView tvArsenicum;
     TextView tvSelenium;
-    TextView tvBromine;
+    TextView tvBromum;
     TextView tvKrypton;
     TextView tvRubidium;
     TextView tvStrontium;
@@ -79,13 +79,13 @@ public class MainActivity extends AppCompatActivity {
     TextView tvRuthenium;
     TextView tvRhodium;
     TextView tvPalladium;
-    TextView tvSilver;
+    TextView tvArgentum;
     TextView tvCadmium;
     TextView tvIndium;
-    TextView tvTin;
-    TextView tvAntimony;
+    TextView tvStannum;
+    TextView tvStibium;
     TextView tvTellurium;
-    TextView tvIodine;
+    TextView tvIodum;
     TextView tvXenon;
     TextView tvCaesium;
     TextView tvBarium;
@@ -106,18 +106,18 @@ public class MainActivity extends AppCompatActivity {
     TextView tvLutetium;
     TextView tvHafnium;
     TextView tvTantalum;
-    TextView tvTungsten;
+    TextView tvWolframium;
     TextView tvRhenium;
     TextView tvOsmium;
     TextView tvIridium;
     TextView tvPlatinum;
-    TextView tvGold;
-    TextView tvMercury;
+    TextView tvAurum;
+    TextView tvHydrargyrum;
     TextView tvThallium;
-    TextView tvLead;
-    TextView tvBismuth;
+    TextView tvPlumbum;
+    TextView tvBismuthum;
     TextView tvPolonium;
-    TextView tvAstatine;
+    TextView tvAstatum;
     TextView tvRadon;
     TextView tvFrancium;
     TextView tvRadium;
@@ -136,7 +136,7 @@ public class MainActivity extends AppCompatActivity {
     TextView tvMendelevium;
     TextView tvNobelium;
     TextView tvLawrencium;
-    TextView tvRutherfordium;
+    TextView tvRhuterfordium;
     TextView tvDubnium;
     TextView tvSeaborgium;
     TextView tvBohrium;
@@ -149,7 +149,7 @@ public class MainActivity extends AppCompatActivity {
     TextView tvFlerovium;
     TextView tvUnunpentium;
     TextView tvLivermorium;
-    TextView tvUnunseptium;
+    TextView tvUnunsentium;
     TextView tvUnunoctium;
     //WebView wv;
     /**
@@ -198,139 +198,131 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        /*
-        wv.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "Dentro do WebView", Toast.LENGTH_SHORT).show();
-                wv.setVisibility(View.INVISIBLE);
-            }
-        }); */
+        tvHydrogenium= (TextView) findViewById(R.id.tvHydrogenium);
+        tvHelium= (TextView) findViewById(R.id.tvHelium);
+        tvLithium= (TextView) findViewById(R.id.tvLithium);
+        tvBeryllium= (TextView) findViewById(R.id.tvBeryllium);
+        tvBorium= (TextView) findViewById(R.id.tvBoron);
+        tvCarbonium= (TextView) findViewById(R.id.tvCarbon);
+        tvNitrogenium= (TextView) findViewById(R.id.tvNitrogen);
+        tvOxygenium= (TextView) findViewById(R.id.tvOxygen);
+        tvFluorum= (TextView) findViewById(R.id.tvFluorine);
+        tvNeon= (TextView) findViewById(R.id.tvNeon);
+        tvNatrium= (TextView) findViewById(R.id.tvSodium);
+        tvMagnesium= (TextView) findViewById(R.id.tvMagnesium);
+        tvAlumen= (TextView) findViewById(R.id.tvAluminium);
+        tvSilicium= (TextView) findViewById(R.id.tvSilicon);
+        tvPhosphorus= (TextView) findViewById(R.id.tvPhosphorus);
+        tvSulphur= (TextView) findViewById(R.id.tvSulfur);
+        tvClorum= (TextView) findViewById(R.id.tvChlorine);
+        tvArgon= (TextView) findViewById(R.id.tvArgon);
+        tvKalium= (TextView) findViewById(R.id.tvPotassium);
+        tvCalcium= (TextView) findViewById(R.id.tvCalcium);
+        tvScandium= (TextView) findViewById(R.id.tvScandium);
+        tvTitanium= (TextView) findViewById(R.id.tvTitanium);
+        tvVanadium= (TextView) findViewById(R.id.tvVanadium);
+        tvChromium= (TextView) findViewById(R.id.tvChromium);
+        tvManganum= (TextView) findViewById(R.id.tvManganese);
+        tvFerrum= (TextView) findViewById(R.id.tvIron);
+        tvCobaltum= (TextView) findViewById(R.id.tvCobalt);
+        tvNiccolum= (TextView) findViewById(R.id.tvNickel);
+        tvCuprum= (TextView) findViewById(R.id.tvCopper);
+        tvZincum= (TextView) findViewById(R.id.tvZinc);
+        tvGalium= (TextView) findViewById(R.id.tvGallium);
+        tvGermanium= (TextView) findViewById(R.id.tvGermanium);
+        tvArsenicum= (TextView) findViewById(R.id.tvArsenic);
+        tvSelenium= (TextView) findViewById(R.id.tvSelenium);
+        tvBromum= (TextView) findViewById(R.id.tvBromine);
+        tvKrypton= (TextView) findViewById(R.id.tvKrypton);
+        tvRubidium= (TextView) findViewById(R.id.tvRubidium);
+        tvStrontium= (TextView) findViewById(R.id.tvStrontium);
+        tvYttrium= (TextView) findViewById(R.id.tvYttrium);
+        tvZirconium= (TextView) findViewById(R.id.tvZirconium);
+        tvNiobium= (TextView) findViewById(R.id.tvNiobium);
+        tvMolybdenum= (TextView) findViewById(R.id.tvMolybdenum);
+        tvTechnetium= (TextView) findViewById(R.id.tvTechnetium);
+        tvRuthenium= (TextView) findViewById(R.id.tvRuthenium);
+        tvRhodium= (TextView) findViewById(R.id.tvRhodium);
+        tvPalladium= (TextView) findViewById(R.id.tvPalladium);
+        tvArgentum= (TextView) findViewById(R.id.tvSilver);
+        tvCadmium= (TextView) findViewById(R.id.tvCadmium);
+        tvIndium= (TextView) findViewById(R.id.tvIndium);
+        tvStannum= (TextView) findViewById(R.id.tvTin);
+        tvStibium= (TextView) findViewById(R.id.tvAntimony);
+        tvTellurium= (TextView) findViewById(R.id.tvTellurium);
+        tvIodum= (TextView) findViewById(R.id.tvIodine);
+        tvXenon= (TextView) findViewById(R.id.tvXenon);
+        tvCaesium= (TextView) findViewById(R.id.tvCaesium);
+        tvBarium= (TextView) findViewById(R.id.tvBarium);
+        tvLanthanum= (TextView) findViewById(R.id.tvLanthanum);
+        tvCerium= (TextView) findViewById(R.id.tvCerium);
+        tvPraseodymium= (TextView) findViewById(R.id.tvPraseodymium);
+        tvNeodymium= (TextView) findViewById(R.id.tvNeodymium);
+        tvPromethium= (TextView) findViewById(R.id.tvPromethium);
+        tvSamarium= (TextView) findViewById(R.id.tvSamarium);
+        tvEuropium= (TextView) findViewById(R.id.tvEuropium);
+        tvGadolinium= (TextView) findViewById(R.id.tvGadolinium);
+        tvTerbium= (TextView) findViewById(R.id.tvTerbium);
+        tvDysprosium= (TextView) findViewById(R.id.tvDysprosium);
+        tvHolmium= (TextView) findViewById(R.id.tvHolmium);
+        tvErbium= (TextView) findViewById(R.id.tvErbium);
+        tvThulium= (TextView) findViewById(R.id.tvThulium);
+        tvYtterbium= (TextView) findViewById(R.id.tvYtterbium);
+        tvLutetium= (TextView) findViewById(R.id.tvLutetium);
+        tvHafnium= (TextView) findViewById(R.id.tvHafnium);
+        tvTantalum= (TextView) findViewById(R.id.tvTantalum);
+        tvWolframium= (TextView) findViewById(R.id.tvTungsten);
+        tvRhenium= (TextView) findViewById(R.id.tvRhenium);
+        tvOsmium= (TextView) findViewById(R.id.tvOsmium);
+        tvIridium= (TextView) findViewById(R.id.tvIridium);
+        tvPlatinum= (TextView) findViewById(R.id.tvPlatinum);
+        tvAurum= (TextView) findViewById(R.id.tvGold);
+        tvHydrargyrum= (TextView) findViewById(R.id.tvMercury);
+        tvThallium= (TextView) findViewById(R.id.tvThallium);
+        tvPlumbum= (TextView) findViewById(R.id.tvLead);
+        tvBismuthum= (TextView) findViewById(R.id.tvBismuth);
+        tvPolonium= (TextView) findViewById(R.id.tvPolonium);
+        tvAstatum= (TextView) findViewById(R.id.tvAstatine);
+        tvRadon= (TextView) findViewById(R.id.tvRadon);
+        tvFrancium= (TextView) findViewById(R.id.tvFrancium);
+        tvRadium= (TextView) findViewById(R.id.tvRadium);
+        tvActinium= (TextView) findViewById(R.id.tvActinium);
+        tvThorium= (TextView) findViewById(R.id.tvThorium);
+        tvProtactinium= (TextView) findViewById(R.id.tvProtactinium);
+        tvUranium= (TextView) findViewById(R.id.tvUranium);
+        tvNeptunium= (TextView) findViewById(R.id.tvNeptunium);
+        tvPlutonium= (TextView) findViewById(R.id.tvPlutonium);
+        tvAmericium= (TextView) findViewById(R.id.tvAmericium);
+        tvCurium= (TextView) findViewById(R.id.tvCurium);
+        tvBerkelium= (TextView) findViewById(R.id.tvBerkelium);
+        tvCalifornium= (TextView) findViewById(R.id.tvCalifornium);
+        tvEinsteinium= (TextView) findViewById(R.id.tvEinsteinium);
+        tvFermium= (TextView) findViewById(R.id.tvFermium);
+        tvMendelevium= (TextView) findViewById(R.id.tvMendelevium);
+        tvNobelium= (TextView) findViewById(R.id.tvNobelium);
+        tvLawrencium= (TextView) findViewById(R.id.tvLawrencium);
+        tvRhuterfordium= (TextView) findViewById(R.id.tvRutherfordium);
+        tvDubnium= (TextView) findViewById(R.id.tvDubnium);
+        tvSeaborgium= (TextView) findViewById(R.id.tvSeaborgium);
+        tvBohrium= (TextView) findViewById(R.id.tvBohrium);
+        tvHassium= (TextView) findViewById(R.id.tvHassium);
+        tvMeitnerium= (TextView) findViewById(R.id.tvMeitnerium);
+        tvDarmstadtium= (TextView) findViewById(R.id.tvDarmstadtium);
+        tvRoentgenium= (TextView) findViewById(R.id.tvRoentgenium);
+        tvCopernicium= (TextView) findViewById(R.id.tvCopernicium);
+        tvUnuntrium= (TextView) findViewById(R.id.tvUnuntrium);
+        tvFlerovium= (TextView) findViewById(R.id.tvFlerovium);
+        tvUnunpentium= (TextView) findViewById(R.id.tvUnunpentium);
+        tvLivermorium= (TextView) findViewById(R.id.tvLivermorium);
+        tvUnunsentium= (TextView) findViewById(R.id.tvUnunseptium);
+        tvUnunoctium= (TextView) findViewById(R.id.tvUnunoctium);
 
-        tvHydrogen = (TextView) findViewById(R.id.tvHydrogen);
-        tvHelium = (TextView) findViewById(R.id.tvHelium);
-        tvLithium = (TextView) findViewById(R.id.tvLithium);
-        tvBeryllium = (TextView) findViewById(R.id.tvBeryllium);
-        tvBoron = (TextView) findViewById(R.id.tvBoron);
-        tvCarbon = (TextView) findViewById(R.id.tvCarbon);
-        tvNitrogen = (TextView) findViewById(R.id.tvNitrogen);
-        tvOxygen = (TextView) findViewById(R.id.tvOxygen);
-        tvFluorine = (TextView) findViewById(R.id.tvFluorine);
-        tvNeon = (TextView) findViewById(R.id.tvNeon);
-        tvSodium = (TextView) findViewById(R.id.tvSodium);
-        tvMagnesium = (TextView) findViewById(R.id.tvMagnesium);
-        tvAluminium = (TextView) findViewById(R.id.tvAluminium);
-        tvSilicon = (TextView) findViewById(R.id.tvSilicon);
-        tvPhosphorus = (TextView) findViewById(R.id.tvPhosphorus);
-        tvSulfur = (TextView) findViewById(R.id.tvSulfur);
-        tvChlorine = (TextView) findViewById(R.id.tvChlorine);
-        tvArgon = (TextView) findViewById(R.id.tvArgon);
-        tvPotassium = (TextView) findViewById(R.id.tvPotassium);
-        tvCalcium = (TextView) findViewById(R.id.tvCalcium);
-        tvScandium = (TextView) findViewById(R.id.tvScandium);
-        tvTitanium = (TextView) findViewById(R.id.tvTitanium);
-        tvVanadium = (TextView) findViewById(R.id.tvVanadium);
-        tvChromium = (TextView) findViewById(R.id.tvChromium);
-        tvManganese = (TextView) findViewById(R.id.tvManganese);
-        tvIron = (TextView) findViewById(R.id.tvIron);
-        tvCobalt = (TextView) findViewById(R.id.tvCobalt);
-        tvNickel = (TextView) findViewById(R.id.tvNickel);
-        tvCopper = (TextView) findViewById(R.id.tvCopper);
-        tvZinc = (TextView) findViewById(R.id.tvZinc);
-        tvGallium = (TextView) findViewById(R.id.tvGallium);
-        tvGermanium = (TextView) findViewById(R.id.tvGermanium);
-        tvArsenic = (TextView) findViewById(R.id.tvArsenic);
-        tvSelenium = (TextView) findViewById(R.id.tvSelenium);
-        tvBromine = (TextView) findViewById(R.id.tvBromine);
-        tvKrypton = (TextView) findViewById(R.id.tvKrypton);
-        tvRubidium = (TextView) findViewById(R.id.tvRubidium);
-        tvStrontium = (TextView) findViewById(R.id.tvStrontium);
-        tvYttrium = (TextView) findViewById(R.id.tvYttrium);
-        tvZirconium = (TextView) findViewById(R.id.tvZirconium);
-        tvNiobium = (TextView) findViewById(R.id.tvNiobium);
-        tvMolybdenum = (TextView) findViewById(R.id.tvMolybdenum);
-        tvTechnetium = (TextView) findViewById(R.id.tvTechnetium);
-        tvRuthenium = (TextView) findViewById(R.id.tvRuthenium);
-        tvRhodium = (TextView) findViewById(R.id.tvRhodium);
-        tvPalladium = (TextView) findViewById(R.id.tvPalladium);
-        tvSilver = (TextView) findViewById(R.id.tvSilver);
-        tvCadmium = (TextView) findViewById(R.id.tvCadmium);
-        tvIndium = (TextView) findViewById(R.id.tvIndium);
-        tvTin = (TextView) findViewById(R.id.tvTin);
-        tvAntimony = (TextView) findViewById(R.id.tvAntimony);
-        tvTellurium = (TextView) findViewById(R.id.tvTellurium);
-        tvIodine = (TextView) findViewById(R.id.tvIodine);
-        tvXenon = (TextView) findViewById(R.id.tvXenon);
-        tvCaesium = (TextView) findViewById(R.id.tvCaesium);
-        tvBarium = (TextView) findViewById(R.id.tvBarium);
-        tvLanthanum = (TextView) findViewById(R.id.tvLanthanum);
-        tvCerium = (TextView) findViewById(R.id.tvCerium);
-        tvPraseodymium = (TextView) findViewById(R.id.tvPraseodymium);
-        tvNeodymium = (TextView) findViewById(R.id.tvNeodymium);
-        tvPromethium = (TextView) findViewById(R.id.tvPromethium);
-        tvSamarium = (TextView) findViewById(R.id.tvSamarium);
-        tvEuropium = (TextView) findViewById(R.id.tvEuropium);
-        tvGadolinium = (TextView) findViewById(R.id.tvGadolinium);
-        tvTerbium = (TextView) findViewById(R.id.tvTerbium);
-        tvDysprosium = (TextView) findViewById(R.id.tvDysprosium);
-        tvHolmium = (TextView) findViewById(R.id.tvHolmium);
-        tvErbium = (TextView) findViewById(R.id.tvErbium);
-        tvThulium = (TextView) findViewById(R.id.tvThulium);
-        tvYtterbium = (TextView) findViewById(R.id.tvYtterbium);
-        tvLutetium = (TextView) findViewById(R.id.tvLutetium);
-        tvHafnium = (TextView) findViewById(R.id.tvHafnium);
-        tvTantalum = (TextView) findViewById(R.id.tvTantalum);
-        tvTungsten = (TextView) findViewById(R.id.tvTungsten);
-        tvRhenium = (TextView) findViewById(R.id.tvRhenium);
-        tvOsmium = (TextView) findViewById(R.id.tvOsmium);
-        tvIridium = (TextView) findViewById(R.id.tvIridium);
-        tvPlatinum = (TextView) findViewById(R.id.tvPlatinum);
-        tvGold = (TextView) findViewById(R.id.tvGold);
-        tvMercury = (TextView) findViewById(R.id.tvMercury);
-        tvThallium = (TextView) findViewById(R.id.tvThallium);
-        tvLead = (TextView) findViewById(R.id.tvLead);
-        tvBismuth = (TextView) findViewById(R.id.tvBismuth);
-        tvPolonium = (TextView) findViewById(R.id.tvPolonium);
-        tvAstatine = (TextView) findViewById(R.id.tvAstatine);
-        tvRadon = (TextView) findViewById(R.id.tvRadon);
-        tvFrancium = (TextView) findViewById(R.id.tvFrancium);
-        tvRadium = (TextView) findViewById(R.id.tvRadium);
-        tvActinium = (TextView) findViewById(R.id.tvActinium);
-        tvThorium = (TextView) findViewById(R.id.tvThorium);
-        tvProtactinium = (TextView) findViewById(R.id.tvProtactinium);
-        tvUranium = (TextView) findViewById(R.id.tvUranium);
-        tvNeptunium = (TextView) findViewById(R.id.tvNeptunium);
-        tvPlutonium = (TextView) findViewById(R.id.tvPlutonium);
-        tvAmericium = (TextView) findViewById(R.id.tvAmericium);
-        tvCurium = (TextView) findViewById(R.id.tvCurium);
-        tvBerkelium = (TextView) findViewById(R.id.tvBerkelium);
-        tvCalifornium = (TextView) findViewById(R.id.tvCalifornium);
-        tvEinsteinium = (TextView) findViewById(R.id.tvEinsteinium);
-        tvFermium = (TextView) findViewById(R.id.tvFermium);
-        tvMendelevium = (TextView) findViewById(R.id.tvMendelevium);
-        tvNobelium = (TextView) findViewById(R.id.tvNobelium);
-        tvLawrencium = (TextView) findViewById(R.id.tvLawrencium);
-        tvRutherfordium = (TextView) findViewById(R.id.tvRutherfordium);
-        tvDubnium = (TextView) findViewById(R.id.tvDubnium);
-        tvSeaborgium = (TextView) findViewById(R.id.tvSeaborgium);
-        tvBohrium = (TextView) findViewById(R.id.tvBohrium);
-        tvHassium = (TextView) findViewById(R.id.tvHassium);
-        tvMeitnerium = (TextView) findViewById(R.id.tvMeitnerium);
-        tvDarmstadtium = (TextView) findViewById(R.id.tvDarmstadtium);
-        tvRoentgenium = (TextView) findViewById(R.id.tvRoentgenium);
-        tvCopernicium = (TextView) findViewById(R.id.tvCopernicium);
-        tvUnuntrium = (TextView) findViewById(R.id.tvUnuntrium);
-        tvFlerovium = (TextView) findViewById(R.id.tvFlerovium);
-        tvUnunpentium = (TextView) findViewById(R.id.tvUnunpentium);
-        tvLivermorium = (TextView) findViewById(R.id.tvLivermorium);
-        tvUnunseptium = (TextView) findViewById(R.id.tvUnunseptium);
-        tvUnunoctium = (TextView) findViewById(R.id.tvUnunoctium);
 
-        tvHydrogen.setOnClickListener(new View.OnClickListener() {
+        tvHydrogenium.setOnClickListener(new View.OnClickListener() {
             @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
             @Override
             public void onClick(View view) {
-                showElementOnScreen(pt.Hydrogen, tvHydrogen);
+                showElementOnScreen(pt.Hydrogenium, tvHydrogenium);
             }
         });
         tvHelium.setOnClickListener(new View.OnClickListener() {
@@ -354,39 +346,39 @@ public class MainActivity extends AppCompatActivity {
                 showElementOnScreen(pt.Beryllium, tvBeryllium);
             }
         });
-        tvBoron.setOnClickListener(new View.OnClickListener() {
+        tvBorium.setOnClickListener(new View.OnClickListener() {
             @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
             @Override
             public void onClick(View view) {
-                showElementOnScreen(pt.Boron, tvBoron);
+                showElementOnScreen(pt.Borium, tvBorium);
             }
         });
-        tvCarbon.setOnClickListener(new View.OnClickListener() {
+        tvCarbonium.setOnClickListener(new View.OnClickListener() {
             @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
             @Override
             public void onClick(View view) {
-                showElementOnScreen(pt.Carbon, tvCarbon);
+                showElementOnScreen(pt.Carbonium, tvCarbonium);
             }
         });
-        tvNitrogen.setOnClickListener(new View.OnClickListener() {
+        tvNitrogenium.setOnClickListener(new View.OnClickListener() {
             @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
             @Override
             public void onClick(View view) {
-                showElementOnScreen(pt.Nitrogen, tvNitrogen);
+                showElementOnScreen(pt.Nitrogenium, tvNitrogenium);
             }
         });
-        tvOxygen.setOnClickListener(new View.OnClickListener() {
+        tvOxygenium.setOnClickListener(new View.OnClickListener() {
             @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
             @Override
             public void onClick(View view) {
-                showElementOnScreen(pt.Oxygen, tvOxygen);
+                showElementOnScreen(pt.Oxygenium, tvOxygenium);
             }
         });
-        tvFluorine.setOnClickListener(new View.OnClickListener() {
+        tvFluorum.setOnClickListener(new View.OnClickListener() {
             @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
             @Override
             public void onClick(View view) {
-                showElementOnScreen(pt.Fluorine, tvFluorine);
+                showElementOnScreen(pt.Fluorum, tvFluorum);
             }
         });
         tvNeon.setOnClickListener(new View.OnClickListener() {
@@ -396,11 +388,11 @@ public class MainActivity extends AppCompatActivity {
                 showElementOnScreen(pt.Neon, tvNeon);
             }
         });
-        tvSodium.setOnClickListener(new View.OnClickListener() {
+        tvNatrium.setOnClickListener(new View.OnClickListener() {
             @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
             @Override
             public void onClick(View view) {
-                showElementOnScreen(pt.Sodium, tvSodium);
+                showElementOnScreen(pt.Natrium, tvNatrium);
             }
         });
         tvMagnesium.setOnClickListener(new View.OnClickListener() {
@@ -410,18 +402,18 @@ public class MainActivity extends AppCompatActivity {
                 showElementOnScreen(pt.Magnesium, tvMagnesium);
             }
         });
-        tvAluminium.setOnClickListener(new View.OnClickListener() {
+        tvAlumen.setOnClickListener(new View.OnClickListener() {
             @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
             @Override
             public void onClick(View view) {
-                showElementOnScreen(pt.Aluminium, tvAluminium);
+                showElementOnScreen(pt.Alumen, tvAlumen);
             }
         });
-        tvSilicon.setOnClickListener(new View.OnClickListener() {
+        tvSilicium.setOnClickListener(new View.OnClickListener() {
             @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
             @Override
             public void onClick(View view) {
-                showElementOnScreen(pt.Silicon, tvSilicon);
+                showElementOnScreen(pt.Silicium, tvSilicium);
             }
         });
         tvPhosphorus.setOnClickListener(new View.OnClickListener() {
@@ -431,18 +423,18 @@ public class MainActivity extends AppCompatActivity {
                 showElementOnScreen(pt.Phosphorus, tvPhosphorus);
             }
         });
-        tvSulfur.setOnClickListener(new View.OnClickListener() {
+        tvSulphur.setOnClickListener(new View.OnClickListener() {
             @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
             @Override
             public void onClick(View view) {
-                showElementOnScreen(pt.Sulfur, tvSulfur);
+                showElementOnScreen(pt.Sulphur, tvSulphur);
             }
         });
-        tvChlorine.setOnClickListener(new View.OnClickListener() {
+        tvClorum.setOnClickListener(new View.OnClickListener() {
             @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
             @Override
             public void onClick(View view) {
-                showElementOnScreen(pt.Chlorine, tvChlorine);
+                showElementOnScreen(pt.Clorum, tvClorum);
             }
         });
         tvArgon.setOnClickListener(new View.OnClickListener() {
@@ -452,11 +444,11 @@ public class MainActivity extends AppCompatActivity {
                 showElementOnScreen(pt.Argon, tvArgon);
             }
         });
-        tvPotassium.setOnClickListener(new View.OnClickListener() {
+        tvKalium.setOnClickListener(new View.OnClickListener() {
             @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
             @Override
             public void onClick(View view) {
-                showElementOnScreen(pt.Potassium, tvPotassium);
+                showElementOnScreen(pt.Kalium, tvKalium);
             }
         });
         tvCalcium.setOnClickListener(new View.OnClickListener() {
@@ -494,53 +486,53 @@ public class MainActivity extends AppCompatActivity {
                 showElementOnScreen(pt.Chromium, tvChromium);
             }
         });
-        tvManganese.setOnClickListener(new View.OnClickListener() {
+        tvManganum.setOnClickListener(new View.OnClickListener() {
             @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
             @Override
             public void onClick(View view) {
-                showElementOnScreen(pt.Manganese, tvManganese);
+                showElementOnScreen(pt.Manganum, tvManganum);
             }
         });
-        tvIron.setOnClickListener(new View.OnClickListener() {
+        tvFerrum.setOnClickListener(new View.OnClickListener() {
             @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
             @Override
             public void onClick(View view) {
-                showElementOnScreen(pt.Iron, tvIron);
+                showElementOnScreen(pt.Ferrum, tvFerrum);
             }
         });
-        tvCobalt.setOnClickListener(new View.OnClickListener() {
+        tvCobaltum.setOnClickListener(new View.OnClickListener() {
             @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
             @Override
             public void onClick(View view) {
-                showElementOnScreen(pt.Cobalt, tvCobalt);
+                showElementOnScreen(pt.Cobaltum, tvCobaltum);
             }
         });
-        tvNickel.setOnClickListener(new View.OnClickListener() {
+        tvNiccolum.setOnClickListener(new View.OnClickListener() {
             @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
             @Override
             public void onClick(View view) {
-                showElementOnScreen(pt.Nickel, tvNickel);
+                showElementOnScreen(pt.Niccolum, tvNiccolum);
             }
         });
-        tvCopper.setOnClickListener(new View.OnClickListener() {
+        tvCuprum.setOnClickListener(new View.OnClickListener() {
             @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
             @Override
             public void onClick(View view) {
-                showElementOnScreen(pt.Copper, tvCopper);
+                showElementOnScreen(pt.Cuprum, tvCuprum);
             }
         });
-        tvZinc.setOnClickListener(new View.OnClickListener() {
+        tvZincum.setOnClickListener(new View.OnClickListener() {
             @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
             @Override
             public void onClick(View view) {
-                showElementOnScreen(pt.Zinc, tvZinc);
+                showElementOnScreen(pt.Zincum, tvZincum);
             }
         });
-        tvGallium.setOnClickListener(new View.OnClickListener() {
+        tvGalium.setOnClickListener(new View.OnClickListener() {
             @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
             @Override
             public void onClick(View view) {
-                showElementOnScreen(pt.Gallium, tvGallium);
+                showElementOnScreen(pt.Galium, tvGalium);
             }
         });
         tvGermanium.setOnClickListener(new View.OnClickListener() {
@@ -550,11 +542,11 @@ public class MainActivity extends AppCompatActivity {
                 showElementOnScreen(pt.Germanium, tvGermanium);
             }
         });
-        tvArsenic.setOnClickListener(new View.OnClickListener() {
+        tvArsenicum.setOnClickListener(new View.OnClickListener() {
             @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
             @Override
             public void onClick(View view) {
-                showElementOnScreen(pt.Arsenic, tvArsenic);
+                showElementOnScreen(pt.Arsenicum, tvArsenicum);
             }
         });
         tvSelenium.setOnClickListener(new View.OnClickListener() {
@@ -564,11 +556,11 @@ public class MainActivity extends AppCompatActivity {
                 showElementOnScreen(pt.Selenium, tvSelenium);
             }
         });
-        tvBromine.setOnClickListener(new View.OnClickListener() {
+        tvBromum.setOnClickListener(new View.OnClickListener() {
             @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
             @Override
             public void onClick(View view) {
-                showElementOnScreen(pt.Bromine, tvBromine);
+                showElementOnScreen(pt.Bromum, tvBromum);
             }
         });
         tvKrypton.setOnClickListener(new View.OnClickListener() {
@@ -648,11 +640,11 @@ public class MainActivity extends AppCompatActivity {
                 showElementOnScreen(pt.Palladium, tvPalladium);
             }
         });
-        tvSilver.setOnClickListener(new View.OnClickListener() {
+        tvArgentum.setOnClickListener(new View.OnClickListener() {
             @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
             @Override
             public void onClick(View view) {
-                showElementOnScreen(pt.Silver, tvSilver);
+                showElementOnScreen(pt.Argentum, tvArgentum);
             }
         });
         tvCadmium.setOnClickListener(new View.OnClickListener() {
@@ -669,18 +661,18 @@ public class MainActivity extends AppCompatActivity {
                 showElementOnScreen(pt.Indium, tvIndium);
             }
         });
-        tvTin.setOnClickListener(new View.OnClickListener() {
+        tvStannum.setOnClickListener(new View.OnClickListener() {
             @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
             @Override
             public void onClick(View view) {
-                showElementOnScreen(pt.Tin, tvTin);
+                showElementOnScreen(pt.Stannum, tvStannum);
             }
         });
-        tvAntimony.setOnClickListener(new View.OnClickListener() {
+        tvStibium.setOnClickListener(new View.OnClickListener() {
             @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
             @Override
             public void onClick(View view) {
-                showElementOnScreen(pt.Antimony, tvAntimony);
+                showElementOnScreen(pt.Stibium, tvStibium);
             }
         });
         tvTellurium.setOnClickListener(new View.OnClickListener() {
@@ -690,11 +682,11 @@ public class MainActivity extends AppCompatActivity {
                 showElementOnScreen(pt.Tellurium, tvTellurium);
             }
         });
-        tvIodine.setOnClickListener(new View.OnClickListener() {
+        tvIodum.setOnClickListener(new View.OnClickListener() {
             @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
             @Override
             public void onClick(View view) {
-                showElementOnScreen(pt.Iodine, tvIodine);
+                showElementOnScreen(pt.Iodum, tvIodum);
             }
         });
         tvXenon.setOnClickListener(new View.OnClickListener() {
@@ -837,11 +829,11 @@ public class MainActivity extends AppCompatActivity {
                 showElementOnScreen(pt.Tantalum, tvTantalum);
             }
         });
-        tvTungsten.setOnClickListener(new View.OnClickListener() {
+        tvWolframium.setOnClickListener(new View.OnClickListener() {
             @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
             @Override
             public void onClick(View view) {
-                showElementOnScreen(pt.Tungsten, tvTungsten);
+                showElementOnScreen(pt.Wolframium, tvWolframium);
             }
         });
         tvRhenium.setOnClickListener(new View.OnClickListener() {
@@ -872,18 +864,18 @@ public class MainActivity extends AppCompatActivity {
                 showElementOnScreen(pt.Platinum, tvPlatinum);
             }
         });
-        tvGold.setOnClickListener(new View.OnClickListener() {
+        tvAurum.setOnClickListener(new View.OnClickListener() {
             @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
             @Override
             public void onClick(View view) {
-                showElementOnScreen(pt.Gold, tvGold);
+                showElementOnScreen(pt.Aurum, tvAurum);
             }
         });
-        tvMercury.setOnClickListener(new View.OnClickListener() {
+        tvHydrargyrum.setOnClickListener(new View.OnClickListener() {
             @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
             @Override
             public void onClick(View view) {
-                showElementOnScreen(pt.Mercury, tvMercury);
+                showElementOnScreen(pt.Hydrargyrum, tvHydrargyrum);
             }
         });
         tvThallium.setOnClickListener(new View.OnClickListener() {
@@ -893,18 +885,18 @@ public class MainActivity extends AppCompatActivity {
                 showElementOnScreen(pt.Thallium, tvThallium);
             }
         });
-        tvLead.setOnClickListener(new View.OnClickListener() {
+        tvPlumbum.setOnClickListener(new View.OnClickListener() {
             @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
             @Override
             public void onClick(View view) {
-                showElementOnScreen(pt.Lead, tvLead);
+                showElementOnScreen(pt.Plumbum, tvPlumbum);
             }
         });
-        tvBismuth.setOnClickListener(new View.OnClickListener() {
+        tvBismuthum.setOnClickListener(new View.OnClickListener() {
             @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
             @Override
             public void onClick(View view) {
-                showElementOnScreen(pt.Bismuth, tvBismuth);
+                showElementOnScreen(pt.Bismuthum, tvBismuthum);
             }
         });
         tvPolonium.setOnClickListener(new View.OnClickListener() {
@@ -914,11 +906,11 @@ public class MainActivity extends AppCompatActivity {
                 showElementOnScreen(pt.Polonium, tvPolonium);
             }
         });
-        tvAstatine.setOnClickListener(new View.OnClickListener() {
+        tvAstatum.setOnClickListener(new View.OnClickListener() {
             @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
             @Override
             public void onClick(View view) {
-                showElementOnScreen(pt.Astatine, tvAstatine);
+                showElementOnScreen(pt.Astatum, tvAstatum);
             }
         });
         tvRadon.setOnClickListener(new View.OnClickListener() {
@@ -1047,11 +1039,11 @@ public class MainActivity extends AppCompatActivity {
                 showElementOnScreen(pt.Lawrencium, tvLawrencium);
             }
         });
-        tvRutherfordium.setOnClickListener(new View.OnClickListener() {
+        tvRhuterfordium.setOnClickListener(new View.OnClickListener() {
             @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
             @Override
             public void onClick(View view) {
-                showElementOnScreen(pt.Rutherfordium, tvRutherfordium);
+                showElementOnScreen(pt.Rhuterfordium, tvRhuterfordium);
             }
         });
         tvDubnium.setOnClickListener(new View.OnClickListener() {
@@ -1138,11 +1130,11 @@ public class MainActivity extends AppCompatActivity {
                 showElementOnScreen(pt.Livermorium, tvLivermorium);
             }
         });
-        tvUnunseptium.setOnClickListener(new View.OnClickListener() {
+        tvUnunsentium.setOnClickListener(new View.OnClickListener() {
             @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
             @Override
             public void onClick(View view) {
-                showElementOnScreen(pt.Ununseptium, tvUnunseptium);
+                showElementOnScreen(pt.Ununsentium, tvUnunsentium);
             }
         });
         tvUnunoctium.setOnClickListener(new View.OnClickListener() {
@@ -1170,10 +1162,18 @@ public class MainActivity extends AppCompatActivity {
 
     @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
     public void showElementOnScreen(String[] element, TextView tvTarget) {
+        /*
+        Z[0]                    Sym[1]	                Element[2]
+        Oficiallatim[3]	        Origin of name[4]       Group[5]
+        Group Name[6]	        Period[7]	            Atomic weight (u (±))[8]
+        Density (g/cm3)[9]	    Melting Point (K)[10]	Boiling Point (K)[11]
+        C10 (J/(g·K))[12]	    χ10[13]                 Abundance (mg/kg)[14]
+        URL[15]	                Image[16]*/
+
         tvNroAtomico.setText(element[0]); // Nro. Atomico
         tvSimbolo.setText(element[1]); // Simbolo
-        tvNome.setText(element[3]); // Nome em Portugues
-        tvMassa.setText(element[5]); // Massa
+        tvNome.setText(element[2]); // Nome em Portugues
+        tvMassa.setText(element[8]); // Massa
 
         gridResult.setBackground(tvTarget.getBackground());
     }

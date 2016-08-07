@@ -3105,7 +3105,7 @@ containing a value of this type.
         public static final int tvHassium=0x7f0c00ff;
         public static final int tvHelium=0x7f0c00b3;
         public static final int tvHolmium=0x7f0c0114;
-        public static final int tvHydrogen=0x7f0c00b2;
+        public static final int tvHydrogenium=0x7f0c00b2;
         public static final int tvIndium=0x7f0c00ca;
         public static final int tvIodine=0x7f0c00ce;
         public static final int tvIridium=0x7f0c00d7;
