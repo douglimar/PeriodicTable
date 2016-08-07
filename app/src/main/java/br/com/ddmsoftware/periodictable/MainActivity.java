@@ -5,21 +5,13 @@ import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.graphics.Color;
-import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.Build;
 import android.support.v4.app.DialogFragment;
-import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
-import android.webkit.WebSettings;
-import android.webkit.WebView;
-import android.webkit.WebViewClient;
 import android.widget.GridLayout;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -27,8 +19,6 @@ import android.widget.Toast;
 import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.common.api.GoogleApiClient;
-
-import org.w3c.dom.Text;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -41,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
     TextView tvNomeIngles;
     TextView tvMassa;
     GridLayout gridResult;
-    periodicTable pt;
+    periodicTablePortuguese pt;
 
     TextView tvHydrogen;
     TextView tvHelium;
@@ -183,7 +173,7 @@ public class MainActivity extends AppCompatActivity {
         tvMassa = (TextView) findViewById(R.id.tvMassa);
         //wv = (WebView) findViewById(R.id.webView);
 
-        pt = new periodicTable();
+        pt = new periodicTablePortuguese();
         pt.getAllElements();
 
         clearElementsTable();
