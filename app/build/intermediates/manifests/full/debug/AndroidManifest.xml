@@ -10,7 +10,8 @@
 
     <!-- To access Google+ APIs: -->
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Optional permission for Analytics to run. -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+ <!-- Optional permission for Analytics to run. -->
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
@@ -22,7 +23,8 @@
 
     <uses-feature
         android:glEsVersion="0x00020000"
-        android:required="true" /> <!-- <android:name="android.support.multidex.MultiDexApplication" -->
+        android:required="true" />
+ <!-- <android:name="android.support.multidex.MultiDexApplication" -->
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -48,6 +50,9 @@
 
         <activity
             android:name="br.com.ddmsoftware.periodictable.ResultActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="br.com.ddmsoftware.periodictable.ResultActivity2"
             android:screenOrientation="landscape" />
         <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
         <activity
@@ -163,7 +168,8 @@ Service handling Google Sign-In user revocation. For apps that do not integrate 
 
         <activity
             android:name="com.google.android.gms.tagmanager.TagManagerPreviewActivity"
-            android:noHistory="true" > <!-- optional, removes the previewActivity from the activity stack. -->
+            android:noHistory="true" >
+ <!-- optional, removes the previewActivity from the activity stack. -->
             <intent-filter>
                 <data android:scheme="tagmanager.c.br.com.ddmsoftware.periodictable" />
 

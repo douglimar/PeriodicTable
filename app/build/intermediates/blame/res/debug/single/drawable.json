@@ -1,642 +1,650 @@
 [
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.0/res/drawable/abc_switch_thumb_material.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\drawable\\common_plus_signin_btn_icon_light.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/xr.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/xr.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.0\\res\\drawable\\abc_text_cursor_material.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/ca.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/ca.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ac.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\ac.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.0/res/drawable/abc_btn_colored_material.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_stop.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable\\cast_ic_mini_controller_stop.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/si.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/si.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_mini_controller_gradient_light.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable\\cast_mini_controller_gradient_light.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/tm.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/tm.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\xe.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\xe.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.0/res/drawable/abc_seekbar_thumb_material.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_rewind30.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable\\cast_ic_notification_rewind30.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/pt.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/pt.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/tb.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/tb.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_rewind.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable\\cast_ic_notification_rewind.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/in.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/in.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_cast_dark.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable\\mr_ic_cast_dark.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/cast_mini_controller_progress_drawable.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.2.1/res/drawable/cast_mini_controller_progress_drawable.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\br.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\br.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_mono_dark.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable/mr_ic_media_route_mono_dark.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ge.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\ge.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_connecting_mono_light.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable/mr_ic_media_route_connecting_mono_light.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\v.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\v.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/u.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/u.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.0\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/zn.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/zn.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.0\\res\\drawable\\abc_ratingbar_material.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_upcoming_play.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.2.1/res/drawable/cast_ic_mini_controller_upcoming_play.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tl.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\tl.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_upcoming_stop.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.2.1/res/drawable/cast_ic_mini_controller_upcoming_stop.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ca.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\ca.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/res/drawable/common_google_signin_btn_text_dark.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tm.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\tm.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/h.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/h.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\si.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\si.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/bi.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/bi.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\in.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\in.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/mg.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/mg.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rb.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\rb.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.0/res/drawable/abc_item_background_holo_light.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mg.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\mg.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/ac.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/ac.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.0\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/tc.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/tc.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sr.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\sr.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/mr_ic_cast_light.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable/mr_ic_cast_light.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_settings_dark.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable\\mr_ic_settings_dark.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.0/res/drawable/abc_btn_radio_material.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\img_not_found.jpg",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\img_not_found.jpg"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/ge.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/ge.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_play.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable\\cast_ic_mini_controller_play.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/mr_ic_cast_dark.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable/mr_ic_cast_dark.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/mr_ic_play_dark.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable/mr_ic_play_dark.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\be.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\be.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/la.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/la.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\w.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\w.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/f.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/f.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\img_nao_encontrada.jpg",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\img_nao_encontrada.jpg"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_forward10.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.2.1/res/drawable/cast_ic_notification_forward10.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cl.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\cl.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/br.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/br.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\drawable\\common_google_signin_btn_text_light.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/i.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/i.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cu.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\cu.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.0/res/drawable/abc_list_selector_holo_dark.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.0/res/drawable/abc_item_background_holo_dark.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.0\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/w.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/w.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\k.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\k.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/mr_ic_settings_dark.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable/mr_ic_settings_dark.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rn.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\rn.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_connecting_mono_dark.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable/mr_ic_media_route_connecting_mono_dark.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_play.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable\\cast_ic_notification_play.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_tick_mark_material.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.0/res/drawable/abc_seekbar_tick_mark_material.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pr.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\pr.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/as.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/as.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_upcoming_stop.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable\\cast_ic_mini_controller_upcoming_stop.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/fe.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/fe.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\gd.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\gd.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/ag.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/ag.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\re.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\re.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/yb.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/yb.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ta.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\ta.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/cu.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/cu.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.0/res/drawable/abc_text_cursor_material.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.0\\res\\drawable\\abc_ratingbar_indicator_material.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.0/res/drawable/abc_dialog_material_background.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\kr.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\kr.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/rn.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/rn.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_connecting_mono_dark.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable\\mr_ic_media_route_connecting_mono_dark.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.0/res/drawable/abc_ratingbar_material.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\na.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\na.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/os.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/os.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_pause.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable\\cast_ic_mini_controller_pause.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/se.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/se.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\se.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\se.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_icon_dark.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/res/drawable/common_plus_signin_btn_icon_dark.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.0\\res\\drawable\\abc_switch_thumb_material.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.0/res/drawable/abc_ratingbar_indicator_material.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\th.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\th.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.0/res/drawable/abc_tab_indicator_material.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\nb.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\nb.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_rewind.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.2.1/res/drawable/cast_ic_notification_rewind.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dy.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\dy.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/hg.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/hg.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_play_light.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable\\mr_ic_play_light.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.0/res/drawable/abc_cab_background_internal_bg.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_settings_light.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable\\mr_ic_settings_light.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/k.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/k.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.0\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/ir.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/ir.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tb.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\tb.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.0/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\s.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\s.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/xe.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/xe.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pd.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\pd.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/pu.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/pu.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.0\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/na.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/na.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\y.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\y.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/pr.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/pr.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\drawable\\common_plus_signin_btn_icon_dark.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/mr_ic_settings_light.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable/mr_ic_settings_light.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\xr.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\xr.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.0/res/drawable/abc_btn_borderless_material.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\hg.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\hg.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/cl.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/cl.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lu.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\lu.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.0/res/drawable/abc_btn_check_material.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_light.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\drawable\\common_plus_signin_btn_text_light.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/cr.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/cr.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\er.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\er.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/po.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/po.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.0\\res\\drawable\\abc_ic_go_search_api_material.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/co.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/co.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\fe.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\fe.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/ta.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/ta.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.0\\res\\drawable\\abc_ic_clear_material.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/rh.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/rh.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.0\\res\\drawable\\abc_dialog_material_background.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/gd.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/gd.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\zn.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\zn.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.0/res/drawable/abc_textfield_search_material.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\drawable\\common_google_signin_btn_icon_light.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/ga.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/ga.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.0\\res\\drawable\\abc_ic_search_api_material.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/rb.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/rb.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/re.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/re.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_disconnect.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable\\cast_ic_notification_disconnect.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/sc.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/sc.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mn.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\mn.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/n.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/n.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_pause_dark.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable\\mr_ic_pause_dark.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_stop_live_stream.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.2.1/res/drawable/cast_ic_notification_stop_live_stream.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.0\\res\\drawable\\abc_edit_text_material.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/cast_mini_controller_gradient_light.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.2.1/res/drawable/cast_mini_controller_gradient_light.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_skip_next.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.2.1/res/drawable/cast_ic_notification_skip_next.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ru.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\ru.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.0/res/drawable/abc_cab_background_top_material.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ba.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\ba.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/pb.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/pb.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pa.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\pa.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/res/drawable/common_google_signin_btn_text_light.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\p.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\p.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/bo.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/bo.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\at.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\at.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.0/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sb.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\sb.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.0/res/drawable/abc_ic_clear_material.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\fr.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\fr.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/lu.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/lu.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sn.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\sn.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/mn.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/mn.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_forward30.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable\\cast_ic_notification_forward30.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/ne.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/ne.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\te.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\te.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/abc_ic_menu_overflow_material.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.0/res/drawable/abc_ic_menu_overflow_material.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_mono_dark.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable\\mr_ic_media_route_mono_dark.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_rewind10.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.2.1/res/drawable/cast_ic_notification_rewind10.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ir.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\ir.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/sn.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/sn.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\au.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\au.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_disconnect.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.2.1/res/drawable/cast_ic_notification_disconnect.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ne.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\ne.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_pause.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.2.1/res/drawable/cast_ic_notification_pause.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\os.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\os.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/li.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/li.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\yb.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\yb.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/au.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/au.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sc.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\sc.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_icon_light.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/res/drawable/common_plus_signin_btn_icon_light.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cd.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\cd.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/pa.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/pa.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\f.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\f.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_text_light.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/res/drawable/common_plus_signin_btn_text_light.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_pause.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable\\cast_ic_notification_pause.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/ru.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/ru.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\c.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\c.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.0/res/drawable/abc_ratingbar_small_material.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\li.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\li.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/ce.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/ce.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ag.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\ag.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/hf.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/hf.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_small_icon.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable\\cast_ic_notification_small_icon.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/sb.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/sb.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_rewind10.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable\\cast_ic_notification_rewind10.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/abc_ic_voice_search_api_material.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.0/res/drawable/abc_ic_voice_search_api_material.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_cast_light.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable\\mr_ic_cast_light.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/at.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/at.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_connecting.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/9.2.1/res/drawable/cast_ic_notification_connecting.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.0\\res\\drawable\\abc_ic_ab_back_material.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/kr.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/kr.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.0\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/al.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/al.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\he.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\he.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/ra.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/ra.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_mini_controller_progress_drawable.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable\\cast_mini_controller_progress_drawable.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_text_dark.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/res/drawable/common_plus_signin_btn_text_dark.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cr.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\cr.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/te.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/te.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\drawable\\common_plus_signin_btn_text_dark.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.0/res/drawable/abc_btn_default_mtrl_shape.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ga.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\ga.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/th.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/th.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_forward10.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable\\cast_ic_notification_forward10.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/ba.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/ba.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rh.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\rh.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.0/res/drawable/abc_ic_go_search_api_material.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_upcoming_play.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable\\cast_ic_mini_controller_upcoming_play.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/er.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/er.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/c.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/c.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\po.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\po.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.0/res/drawable/abc_seekbar_track_material.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\n.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\n.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/cd.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/cd.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\co.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\co.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_forward30.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.2.1/res/drawable/cast_ic_notification_forward30.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\as.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\as.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/sr.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/sr.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.0\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/ni.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/ni.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mo.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\mo.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.0/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.0\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/dy.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/dy.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\h.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\h.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/nb.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/nb.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\hf.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\hf.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/mr_ic_pause_light.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable/mr_ic_pause_light.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.0\\res\\drawable\\abc_ic_voice_search_api_material.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/mr_ic_pause_dark.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable/mr_ic_pause_dark.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_stop_live_stream.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable\\cast_ic_notification_stop_live_stream.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.0/res/drawable/abc_spinner_textfield_background_material.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\al.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\al.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_rewind30.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.2.1/res/drawable/cast_ic_notification_rewind30.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ar.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\ar.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/ar.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/ar.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pu.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\pu.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_mono_light.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable/mr_ic_media_route_mono_light.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tc.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\tc.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/pd.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/pd.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_skip_next.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable\\cast_ic_notification_skip_next.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/ti.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/ti.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.0\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_pause.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.2.1/res/drawable/cast_ic_mini_controller_pause.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.0\\res\\drawable\\abc_btn_borderless_material.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/abc_ic_ab_back_material.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.0/res/drawable/abc_ic_ab_back_material.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bo.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\bo.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/fr.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/fr.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ti.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\ti.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/tl.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/tl.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.0\\res\\drawable\\abc_btn_colored_material.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_forward.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.2.1/res/drawable/cast_ic_notification_forward.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\drawable\\common_google_signin_btn_text_dark.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.0/res/drawable/abc_ic_search_api_material.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\i.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\i.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_play.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.2.1/res/drawable/cast_ic_notification_play.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bi.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\bi.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.0/res/drawable/abc_edit_text_material.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pt.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\pt.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/be.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/be.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_pause_light.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable\\mr_ic_pause_light.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/he.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/he.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.0\\res\\drawable\\abc_ratingbar_small_material.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/res/drawable/common_google_signin_btn_icon_light.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_play_dark.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable\\mr_ic_play_dark.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/y.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/y.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_forward.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable\\cast_ic_notification_forward.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_play.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.2.1/res/drawable/cast_ic_mini_controller_play.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\u.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\u.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/res/drawable/common_google_signin_btn_icon_dark.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.0\\res\\drawable\\abc_ic_menu_overflow_material.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_stop.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.2.1/res/drawable/cast_ic_mini_controller_stop.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_connecting_mono_light.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable\\mr_ic_media_route_connecting_mono_light.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/v.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/v.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.0\\res\\drawable\\abc_btn_check_material.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.0/res/drawable/abc_list_selector_holo_light.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\la.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\la.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/p.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/p.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ra.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\ra.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/s.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/s.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.0\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/mr_ic_play_light.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable/mr_ic_play_light.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ni.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\ni.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_skip_prev.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.2.1/res/drawable/cast_ic_notification_skip_prev.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_mono_light.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable\\mr_ic_media_route_mono_light.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_small_icon.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.2.1/res/drawable/cast_ic_notification_small_icon.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ce.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\ce.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/build/intermediates/res/merged/debug/drawable/mo.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/PeriodicTable/app/src/main/res/drawable/mo.png"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_skip_prev.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable\\cast_ic_notification_skip_prev.xml"
+    },
+    {
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pb.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\pb.png"
+    },
+    {
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_connecting.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast\\9.2.1\\res\\drawable\\cast_ic_notification_connecting.xml"
     }
 ]

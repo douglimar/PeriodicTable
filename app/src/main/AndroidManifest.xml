@@ -29,6 +29,7 @@
             android:value="@integer/google_play_services_version" />
 
         <activity android:name=".ResultActivity"  android:screenOrientation="landscape"/>
+        <activity android:name=".ResultActivity2"  android:screenOrientation="landscape"/>
     </application>
 
 </manifest>

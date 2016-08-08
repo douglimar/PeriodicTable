@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
     public static final String EXTRA_MESSAGE = new String ("br.com.ddmsoftware.periodictable.MESSAGE");
 
+    String message ="";
 
     TextView tvNroAtomico;
     TextView tvSimbolo;
@@ -187,9 +188,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Toast.makeText(MainActivity.this, "Clique e Funfou...", Toast.LENGTH_SHORT).show();
 
-                Intent intent = new Intent(MainActivity.this, ResultActivity.class);
-
-                String message = tvSimbolo.getText().toString();
+                Intent intent = new Intent(MainActivity.this, ResultActivity2.class);
 
                 intent.putExtra(EXTRA_MESSAGE, message);
 
@@ -1176,6 +1175,15 @@ public class MainActivity extends AppCompatActivity {
         tvMassa.setText(element[8]); // Massa
 
         gridResult.setBackground(tvTarget.getBackground());
+
+        message = element[0] +";"+element[1] +";"+element[2] +";"+element[3] +";"+element[4] +";"+element[5] +";"+
+                  element[6] +";"+element[7] +";"+element[8] +";"+element[9] +";"+element[10]+";"+element[11]+";"+
+                  element[12]+";"+element[13]+";"+element[14]+";"+element[15]+";"+element[16];
+    }
+
+    public void sendExtraMessageToNewActivity(){
+
+
     }
 
     public void showMessage(String message) {
@@ -1229,57 +1237,5 @@ public class MainActivity extends AppCompatActivity {
         newFragment.show(getFragmentManager(), "dialog");
     }
 */
-
-    public static class MyAlertDialog extends DialogFragment {
-
-        public static MyAlertDialog newInstance(int title) {
-            MyAlertDialog frag = new MyAlertDialog();
-            Bundle args = new Bundle();
-            args.putInt("title", title);
-            frag.setArguments(args);
-            return frag;
-        }
-
-        @Override
-        public Dialog onCreateDialog(Bundle savedInstanceState) {
-            int title = getArguments().getInt("title");
-
-            return new AlertDialog.Builder(getActivity())
-                    .setIcon(R.mipmap.ic_launcher)
-                    .setTitle(title)
-                    .setPositiveButton(R.string.alert_dialog_ok,
-                            new DialogInterface.OnClickListener() {
-                                public void onClick(DialogInterface dialog, int whichButton) {
-                                    ((MainActivity) getActivity()).doPositiveClick();
-                                }
-                            }
-                    )
-                    .setNegativeButton(R.string.alert_dialog_cancel,
-                            new DialogInterface.OnClickListener() {
-                                public void onClick(DialogInterface dialog, int whichButton) {
-                                    ((MainActivity) getActivity()).doNegativeClick();
-                                }
-                            }
-                    )
-                    .create();
-        }
-
-
-        void showDialog() {
-            DialogFragment newFragment = MyAlertDialog.newInstance(
-                    R.string.alert_dialog_two_buttons_title);
-            newFragment.show(getFragmentManager(), "dialog");
-        }
-    }
-
-    public void doPositiveClick() {
-        // Do stuff here.
-        Log.i("FragmentAlertDialog", "Positive click!");
-    }
-
-    public void doNegativeClick() {
-        // Do stuff here.
-        Log.i("FragmentAlertDialog", "Negative click!");
-    }
 
 }
