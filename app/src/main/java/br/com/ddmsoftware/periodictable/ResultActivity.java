@@ -8,6 +8,7 @@ import android.view.View;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TabHost;
 import android.widget.TextView;
@@ -50,9 +51,9 @@ public class ResultActivity extends AppCompatActivity {
         //imgResult.setImageResource(iImageFromResource);
 
 
-        Button btnBack = (Button) findViewById(R.id.btnBack);
+        ImageButton imgBtnBack = (ImageButton) findViewById(R.id.imgBtnBack);
 
-        btnBack.setOnClickListener(new View.OnClickListener() {
+        imgBtnBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 finish();

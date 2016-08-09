@@ -7,12 +7,16 @@ import android.view.View;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TabHost;
 import android.widget.TextView;
 import android.widget.Toast;
 
 public class ResultActivity2 extends AppCompatActivity {
+
+    public static final String URL_MESSAGE = new String ("br.com.ddmsoftware.periodictable.URLMESSAGE");
+
 
     String[] aResult = new String[16];
     String url = "";
@@ -56,13 +60,30 @@ public class ResultActivity2 extends AppCompatActivity {
         iDefaultImageNotFound = R.drawable.img_not_found;
         //imgResult.setImageResource(iImageFromResource);
 
+        ImageButton imgBtnBack = (ImageButton) findViewById(R.id.imgBtnBack);
 
-        Button btnBack = (Button) findViewById(R.id.btnBack2);
-
-        btnBack.setOnClickListener(new View.OnClickListener() {
+        imgBtnBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 finish();
+            }
+        });
+
+        ImageButton imgBtnWiki = (ImageButton) findViewById(R.id.imgBtnWiki);
+
+
+        imgBtnWiki.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                //Toast.makeText(MainActivity.this, "Clique e Funfou...", Toast.LENGTH_SHORT).show();
+
+                Intent intent = new Intent(ResultActivity2.this, WebviewActivity.class);
+
+                intent.putExtra(URL_MESSAGE, url);
+
+                startActivity(intent);
+
             }
         });
 

@@ -116,6 +116,10 @@
         "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\be.png"
     },
     {
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\wiki.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\wiki.png"
+    },
+    {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\w.png",
         "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\w.png"
     },
@@ -198,6 +202,10 @@
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_pause.xml",
         "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable\\cast_ic_mini_controller_pause.xml"
+    },
+    {
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\share.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\share.png"
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\se.png",
@@ -618,6 +626,10 @@
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ra.png",
         "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\ra.png"
+    },
+    {
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\back.png",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\back.png"
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",

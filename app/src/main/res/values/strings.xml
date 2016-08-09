@@ -8,4 +8,5 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="btnBack">Voltar</string>
     <string name="btnWikipedia">Mais informações (Wikipedia)</string>
+    <string name="btnShare">Compartilhar</string>
 </resources>

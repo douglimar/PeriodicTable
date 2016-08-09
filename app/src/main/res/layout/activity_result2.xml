@@ -12,7 +12,8 @@
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout">
 
         <GridLayout
             android:layout_width="match_parent"
@@ -55,7 +56,7 @@
                 android:text="New Text"
                 android:id="@+id/tvResult_Info2"
                 android:layout_column="2"
-                android:layout_row="1" />
+                android:layout_row="2" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -64,7 +65,7 @@
                 android:text="Medium Text"
                 android:id="@+id/tvResult_Info3"
                 android:layout_column="2"
-                android:layout_row="2" />
+                android:layout_row="1" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -114,24 +115,31 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <Button
+            <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/btnBack"
-                android:id="@+id/btnBack2"
-                android:layout_row="12"
-                android:layout_column="2"
-                android:background="@color/accent_material_dark"
-                android:layout_margin="1dp"
+                android:id="@+id/imgBtnBack"
+                android:src="@drawable/back"
+                android:background="@color/background_material_light"
+                android:layout_margin="8dp"
                 android:layout_weight="1" />
 
-            <Button
+            <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/btnWikipedia"
-                android:id="@+id/btnWikipedia"
-                android:background="@color/accent_material_dark"
-                android:layout_margin="1dp"
+                android:id="@+id/imgBtnWiki"
+                android:src="@drawable/wiki"
+                android:background="@color/background_material_light"
+                android:layout_margin="8dp"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton3"
+                android:src="@drawable/share"
+                android:background="@color/background_material_light"
+                android:layout_margin="8dp"
                 android:layout_weight="1" />
 
         </LinearLayout>

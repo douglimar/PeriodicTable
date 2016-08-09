@@ -54,6 +54,7 @@
         <activity
             android:name="br.com.ddmsoftware.periodictable.ResultActivity2"
             android:screenOrientation="landscape" />
+        <activity android:name="br.com.ddmsoftware.periodictable.WebviewActivity" />
         <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
         <activity
             android:name="com.google.android.gms.ads.AdActivity"

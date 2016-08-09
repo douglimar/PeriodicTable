@@ -1575,7 +1575,7 @@ public class periodicTablePortuguese {
         Astatum[16] = "at";
         Radon[0] = "86";
         Radon[1] = "Rn";
-        Radon[2] = "Rádon (Radônio)";
+        Radon[2] = "Radônio";
         Radon[3] = "Radon";
         Radon[4] = "emanação do Radium";
         Radon[5] = "18";
