@@ -30,6 +30,7 @@ public class ResultActivity2 extends AppCompatActivity {
     TextView tvResult_info6;
     TextView tvResult_info7;
     TextView tvResult_info8;
+    TextView tvResult_info9;
 
     ImageView imgResult;
 
@@ -53,6 +54,7 @@ public class ResultActivity2 extends AppCompatActivity {
         tvResult_info6 = (TextView) findViewById(R.id.tvResult_info6);
         tvResult_info7 = (TextView) findViewById(R.id.tvResult_info7);
         tvResult_info8 = (TextView) findViewById(R.id.tvResult_info8);
+        tvResult_info9 = (TextView) findViewById(R.id.tvResult_info9);
 
         imgResult = (ImageView) findViewById(R.id.imgResultInfo);
         //TODO: Validar o IDIOMA antes de configurar a Imagem Padrao
@@ -133,13 +135,14 @@ public class ResultActivity2 extends AppCompatActivity {
         aResult = message.split(";");
 
         tvResult_info1.setText(aResult[0] + " - " + aResult[2] + " (" + aResult[1] +")");
-        tvResult_info2.setText("Nome em Latim: " + aResult[3]);
-        tvResult_info3.setText("Origem do Nome: " + aResult[4]);
-        tvResult_info4.setText("Nome do Grupo: " + aResult[5]+ "-" + aResult[6]);
-        tvResult_info5.setText("Periodo: " + aResult[7]);
-        tvResult_info6.setText("Massa Atômica: " + aResult[8]);
-        tvResult_info7.setText("Densidade: " + aResult[9]);
-        tvResult_info8.setText("Ponto de Fusão: " + aResult[10] + " - Ponto de Ebulição: " + aResult[11]);
+        tvResult_info2.setText(aResult[3]); // "Nome em Latim: "
+        tvResult_info3.setText(aResult[4]); //"Origem do Nome: " +
+        tvResult_info4.setText(aResult[5]+ "-" + aResult[6]); //"Nome do Grupo: " +
+        tvResult_info5.setText(aResult[7]);//"Periodo: " +
+        tvResult_info6.setText(aResult[8]); //"Massa Atômica: " +
+        tvResult_info7.setText(aResult[9]); //"Densidade: " +
+        tvResult_info8.setText(aResult[10]);//"Ponto de Fusão: " +
+        tvResult_info9.setText(aResult[11]); //"Ponto de Ebulicao: " +
 
         url = aResult[15];
 

@@ -9,4 +9,13 @@
     <string name="btnBack">Voltar</string>
     <string name="btnWikipedia">Mais informações (Wikipedia)</string>
     <string name="btnShare">Compartilhar</string>
+    <string name="tvResult_LatinName">Nome em Latim: </string>
+    <string name="tvResultGroupName">Nome do Grupo: </string>
+    <string name="tvResultPeriod">Período: </string>
+    <string name="tvAtomicWeight">Massa Atômica: </string>
+    <string name="tvResultDensity">Densidade: </string>
+    <string name="tvResultPontoFusao">Ponto de Fusão: </string>
+    <string name="tvResultPontoEbulicao">Ponto de Ebulição: </string>
+    <string name="banner_ad_unit_id"></string>
+    <string name="banner_ad_unit_TESTE">ca-app-pub-3940256099942544/6300978111</string>
 </resources>

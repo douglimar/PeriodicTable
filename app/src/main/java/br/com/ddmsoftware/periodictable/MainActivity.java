@@ -29,7 +29,6 @@ public class MainActivity extends AppCompatActivity {
     TextView tvNroAtomico;
     TextView tvSimbolo;
     TextView tvNome;
-    TextView tvNomeIngles;
     TextView tvMassa;
     GridLayout gridResult;
     periodicTablePortuguese pt;
