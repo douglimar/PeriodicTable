@@ -52,6 +52,41 @@ MERGED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\dmoraes\AndroidStu
 MERGED from [com.google.android.gms:play-services-maps:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.2.1\AndroidManifest.xml:21:5-66
 	android:name
 		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\src\main\AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.2.1\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-ads-lite:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.2.1\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\9.2.1\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\9.2.1\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\9.2.1\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.2.1\AndroidManifest.xml:20:5-79
+MERGED from [com.google.android.gms:play-services-maps:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.2.1\AndroidManifest.xml:20:5-78
+MERGED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.2.1\AndroidManifest.xml:20:5-79
+MERGED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.2.1\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.2.1\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.2.1\AndroidManifest.xml:20:5-79
+MERGED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.2.1\AndroidManifest.xml:20:5-79
+MERGED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.2.1\AndroidManifest.xml:20:5-79
+MERGED from [com.google.android.gms:play-services-maps:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.2.1\AndroidManifest.xml:20:5-78
+MERGED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.2.1\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.2.1\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.2.1\AndroidManifest.xml:20:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.2.1\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.2.1\AndroidManifest.xml:20:5-79
+MERGED from [com.google.android.gms:play-services-nearby:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\9.2.1\AndroidManifest.xml:5:5-79
+MERGED from [com.google.android.gms:play-services-maps:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.2.1\AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\9.2.1\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.2.1\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.2.1\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.2.1\AndroidManifest.xml:20:5-79
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\9.2.1\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\9.2.1\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.2.1\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.2.1\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.2.1\AndroidManifest.xml:20:5-79
+MERGED from [com.google.android.gms:play-services-maps:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.2.1\AndroidManifest.xml:20:5-78
+	android:name
+		ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\src\main\AndroidManifest.xml:7:22-76
 application
 ADDED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\src\main\AndroidManifest.xml:9:5-44:19
 MERGED from [com.android.support:appcompat-v7:24.1.0] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.0\AndroidManifest.xml:25:5-20
@@ -1996,40 +2031,6 @@ MERGED from [com.android.support:support-v4:24.1.0] C:\Users\dmoraes\AndroidStud
 	android:minSdkVersion
 		INJECTED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\src\main\AndroidManifest.xml
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.android.gms:play-services-ads-lite:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.2.1\AndroidManifest.xml:21:5-78
-MERGED from [com.google.android.gms:play-services-ads-lite:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.2.1\AndroidManifest.xml:21:5-78
-MERGED from [com.google.android.gms:play-services-analytics:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\9.2.1\AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.gms:play-services-analytics-impl:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\9.2.1\AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.gms:play-services-analytics-impl:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\9.2.1\AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.2.1\AndroidManifest.xml:20:5-79
-MERGED from [com.google.android.gms:play-services-maps:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.2.1\AndroidManifest.xml:20:5-78
-MERGED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.2.1\AndroidManifest.xml:20:5-79
-MERGED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.2.1\AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.2.1\AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.2.1\AndroidManifest.xml:20:5-79
-MERGED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.2.1\AndroidManifest.xml:20:5-79
-MERGED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.2.1\AndroidManifest.xml:20:5-79
-MERGED from [com.google.android.gms:play-services-maps:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.2.1\AndroidManifest.xml:20:5-78
-MERGED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.2.1\AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.2.1\AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.2.1\AndroidManifest.xml:20:5-79
-MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.2.1\AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.2.1\AndroidManifest.xml:20:5-79
-MERGED from [com.google.android.gms:play-services-nearby:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\9.2.1\AndroidManifest.xml:5:5-79
-MERGED from [com.google.android.gms:play-services-maps:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.2.1\AndroidManifest.xml:20:5-78
-MERGED from [com.google.android.gms:play-services-tagmanager-api:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\9.2.1\AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.2.1\AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.2.1\AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.2.1\AndroidManifest.xml:20:5-79
-MERGED from [com.google.android.gms:play-services-analytics-impl:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\9.2.1\AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.gms:play-services-tagmanager-api:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\9.2.1\AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.2.1\AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.2.1\AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.2.1\AndroidManifest.xml:20:5-79
-MERGED from [com.google.android.gms:play-services-maps:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.2.1\AndroidManifest.xml:20:5-78
-	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.2.1\AndroidManifest.xml:21:22-76
 activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
 ADDED from [com.google.android.gms:play-services-ads-lite:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.2.1\AndroidManifest.xml:30:9-31:52
 MERGED from [com.google.android.gms:play-services-ads-lite:9.2.1] C:\Users\dmoraes\AndroidStudioProjects\PeriodicTable\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.2.1\AndroidManifest.xml:30:9-31:52

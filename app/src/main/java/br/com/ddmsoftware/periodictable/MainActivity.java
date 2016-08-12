@@ -16,6 +16,9 @@ import android.widget.GridLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdSize;
+import com.google.android.gms.ads.AdView;
 import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.common.api.GoogleApiClient;
@@ -179,6 +182,12 @@ public class MainActivity extends AppCompatActivity {
         clearElementsTable();
 
         //wv.setVisibility(View.INVISIBLE);
+
+        // Create a AdView
+        // Load Advertisement Banner
+        AdView mAdView = (AdView) findViewById(R.id.adViewMain);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
 
 
         tvSimbolo.setOnClickListener(new View.OnClickListener() {

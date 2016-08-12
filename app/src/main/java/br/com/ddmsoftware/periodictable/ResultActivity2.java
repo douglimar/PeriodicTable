@@ -13,6 +13,9 @@ import android.widget.TabHost;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 public class ResultActivity2 extends AppCompatActivity {
 
     public static final String URL_MESSAGE = new String ("br.com.ddmsoftware.periodictable.URLMESSAGE");
@@ -93,6 +96,10 @@ public class ResultActivity2 extends AppCompatActivity {
 
         receiveDataFromActivity();
 
+        // Load Advertisement Banner
+        AdView mAdView = (AdView) findViewById(R.id.adViewResult);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
 
     }
 
