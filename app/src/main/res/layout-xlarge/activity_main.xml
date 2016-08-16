@@ -38,7 +38,8 @@
                 android:columnCount="4"
                 android:rowCount="5"
                 android:id="@+id/gridResult"
-                android:layout_gravity="center_horizontal">
+                android:layout_gravity="center_horizontal"
+                android:background="#1ade14">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -2592,5 +2593,13 @@
 
             android:layout_gravity="center_horizontal" />
     </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgTutorial"
+        android:src="@drawable/setapequena"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentEnd="false"/>
 
 </RelativeLayout>

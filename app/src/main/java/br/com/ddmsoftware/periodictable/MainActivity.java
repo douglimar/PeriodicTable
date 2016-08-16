@@ -1,23 +1,19 @@
 package br.com.ddmsoftware.periodictable;
 
 import android.annotation.TargetApi;
-import android.app.AlertDialog;
-import android.app.Dialog;
-import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Build;
-import android.support.v4.app.DialogFragment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.GridLayout;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
@@ -35,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
     TextView tvMassa;
     GridLayout gridResult;
     periodicTablePortuguese pt;
+    ImageView imgFirstbootTuto;
 
     TextView tvHydrogenium;
     TextView tvHelium;
@@ -161,11 +158,19 @@ public class MainActivity extends AppCompatActivity {
      */
     private GoogleApiClient client;
 
+    // To validate Application First Run
+    SharedPreferences prefs = null;
+
+    @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         setContentView(R.layout.activity_main);
+        // Perhaps set content view here
+        // To validate Application First Run (First boot)
+        prefs = getSharedPreferences("br.com.ddmsoftware.periodictable", MODE_PRIVATE);
+        //prefs.edit().putBoolean("firstRun", true).commit();
+
 
         gridResult = (GridLayout) findViewById(R.id.gridResult);
 
@@ -176,10 +181,15 @@ public class MainActivity extends AppCompatActivity {
         tvMassa = (TextView) findViewById(R.id.tvMassa);
         //wv = (WebView) findViewById(R.id.webView);
 
+        imgFirstbootTuto = (ImageView) findViewById( R.id.imgTutorial );
+
+        imgFirstbootTuto.setVisibility( View.INVISIBLE );
+
+
         pt = new periodicTablePortuguese();
         pt.getAllElements();
 
-        clearElementsTable();
+        //clearElementsTable();
 
         //wv.setVisibility(View.INVISIBLE);
 
@@ -194,16 +204,48 @@ public class MainActivity extends AppCompatActivity {
             @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "Clique e Funfou...", Toast.LENGTH_SHORT).show();
-
                 Intent intent = new Intent(MainActivity.this, ResultActivity2.class);
-
                 intent.putExtra(EXTRA_MESSAGE, message);
-
                 startActivity(intent);
-
             }
         });
+        tvNroAtomico.setOnClickListener(new View.OnClickListener() {
+            @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, ResultActivity2.class);
+                intent.putExtra(EXTRA_MESSAGE, message);
+                startActivity(intent);
+            }
+        });
+        tvMassa.setOnClickListener(new View.OnClickListener() {
+            @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, ResultActivity2.class);
+                intent.putExtra(EXTRA_MESSAGE, message);
+                startActivity(intent);
+            }
+        });
+        tvNome.setOnClickListener(new View.OnClickListener() {
+            @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, ResultActivity2.class);
+                intent.putExtra(EXTRA_MESSAGE, message);
+                startActivity(intent);
+            }
+        });
+        gridResult.setOnClickListener(new View.OnClickListener() {
+            @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, ResultActivity2.class);
+                intent.putExtra(EXTRA_MESSAGE, message);
+                startActivity(intent);
+            }
+        });
+
 
         tvHydrogenium= (TextView) findViewById(R.id.tvHydrogenium);
         tvHelium= (TextView) findViewById(R.id.tvHelium);
@@ -1155,6 +1197,22 @@ public class MainActivity extends AppCompatActivity {
         // ATTENTION: This was auto-generated to implement the App Indexing API.
         // See https://g.co/AppIndexing/AndroidStudio for more information.
         client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
+
+        // Starts using Hydrogen Information
+        //showElementOnScreen(pt.Hydrogenium, tvHydrogenium);
+/*
+        tvNroAtomico.setText(pt.Hydrogenium[0]); // Nro. Atomico
+        tvSimbolo.setText(pt.Hydrogenium[1]); // Simbolo
+        tvNome.setText(pt.Hydrogenium[2]); // Nome em Portugues
+        tvMassa.setText(pt.Hydrogenium[8]); // Massa
+
+        gridResult.setBackground( tvHydrogenium.getBackground());
+*/
+
+        //showElementOnScreen(pt.Hydrogenium, tvHydrogenium);
+        message = pt.Hydrogenium[0] +";"+pt.Hydrogenium[1] +";"+pt.Hydrogenium[2] +";"+pt.Hydrogenium[3] +";"+pt.Hydrogenium[4] +";"+pt.Hydrogenium[5] +";"+
+                pt.Hydrogenium[6] +";"+pt.Hydrogenium[7] +";"+pt.Hydrogenium[8] +";"+pt.Hydrogenium[9] +";"+pt.Hydrogenium[10]+";"+pt.Hydrogenium[11]+";"+
+                pt.Hydrogenium[12]+";"+pt.Hydrogenium[13]+";"+pt.Hydrogenium[14]+";"+pt.Hydrogenium[15]+";"+pt.Hydrogenium[16];
     }
 
     @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
@@ -1181,6 +1239,19 @@ public class MainActivity extends AppCompatActivity {
         tvSimbolo.setText(element[1]); // Simbolo
         tvNome.setText(element[2]); // Nome em Portugues
         tvMassa.setText(element[8]); // Massa
+
+        imgFirstbootTuto.setVisibility( View.INVISIBLE );
+
+        if(imgFirstbootTuto.getVisibility() == View.VISIBLE) {
+            imgFirstbootTuto.setVisibility( View.INVISIBLE );
+        }
+
+
+
+        //tvNroAtomico.setBackground( tvTarget.getBackground());
+        //tvSimbolo.setBackground( tvTarget.getBackground());
+        //tvNome.setBackground( tvTarget.getBackground());
+        //tvMassa.setBackground( tvTarget.getBackground());
 
         gridResult.setBackground(tvTarget.getBackground());
 
@@ -1239,11 +1310,20 @@ public class MainActivity extends AppCompatActivity {
         client.disconnect();
     }
 
- /*   public void showDialog() {
-        DialogFragment newFragment = MyAlertDialogFragment.newInstance(
-                R.string.alert_dialog_two_buttons_title);
-        newFragment.show(getFragmentManager(), "dialog");
+    @Override
+    public void onResume(){
+        super.onResume();
+
+        Toast.makeText( MainActivity.this, "Estoy aki", Toast.LENGTH_SHORT ).show();
+        imgFirstbootTuto.setVisibility( View.INVISIBLE );
+
+        // Validate First Run of Application
+        if (prefs.getBoolean("firstRun", true)) {
+
+            Toast.makeText( MainActivity.this, "First Run...", Toast.LENGTH_SHORT ).show();
+            imgFirstbootTuto.setVisibility( View.VISIBLE );
+            prefs.edit().putBoolean("firstRun", false).commit();
+        }
     }
-*/
 
 }

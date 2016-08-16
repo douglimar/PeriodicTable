@@ -38,7 +38,8 @@
                 android:columnCount="4"
                 android:rowCount="5"
                 android:id="@+id/gridResult"
-                android:layout_gravity="center_horizontal">
+                android:layout_gravity="center_horizontal"
+                android:background="#1ade14">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -393,7 +394,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="H"
                 android:id="@+id/tvHydrogenium"
@@ -409,7 +410,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="He"
                 android:id="@+id/tvHelium"
@@ -428,7 +429,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Li"
                 android:id="@+id/tvLithium"
@@ -443,7 +444,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="AI"
                 android:id="@+id/tvAluminium"
@@ -461,7 +462,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Si"
                 android:id="@+id/tvSilicon"
@@ -480,7 +481,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="P"
                 android:id="@+id/tvPhosphorus"
@@ -498,7 +499,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="S"
                 android:id="@+id/tvSulfur"
@@ -516,7 +517,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="CI"
                 android:id="@+id/tvChlorine"
@@ -535,7 +536,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Ar"
                 android:id="@+id/tvArgon"
@@ -554,7 +555,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="K"
                 android:id="@+id/tvPotassium"
@@ -572,7 +573,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Ca"
                 android:id="@+id/tvCalcium"
@@ -590,7 +591,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Sc"
                 android:id="@+id/tvScandium"
@@ -608,7 +609,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Rb"
                 android:id="@+id/tvRubidium"
@@ -626,7 +627,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Sr"
                 android:id="@+id/tvStrontium"
@@ -644,7 +645,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Y"
                 android:id="@+id/tvYttrium"
@@ -662,7 +663,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Zr"
                 android:id="@+id/tvZirconium"
@@ -680,7 +681,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Nb"
                 android:id="@+id/tvNiobium"
@@ -698,7 +699,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Mo"
                 android:id="@+id/tvMolybdenum"
@@ -716,7 +717,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Tc"
                 android:id="@+id/tvTechnetium"
@@ -734,7 +735,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Ru"
                 android:id="@+id/tvRuthenium"
@@ -752,7 +753,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Rh"
                 android:id="@+id/tvRhodium"
@@ -770,7 +771,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Pd"
                 android:id="@+id/tvPalladium"
@@ -788,7 +789,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Ag"
                 android:id="@+id/tvSilver"
@@ -806,7 +807,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Cd"
                 android:id="@+id/tvCadmium"
@@ -824,7 +825,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="In"
                 android:id="@+id/tvIndium"
@@ -842,7 +843,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Sn"
                 android:id="@+id/tvTin"
@@ -860,7 +861,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Sb"
                 android:id="@+id/tvAntimony"
@@ -879,7 +880,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Te"
                 android:id="@+id/tvTellurium"
@@ -898,7 +899,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="I"
                 android:id="@+id/tvIodine"
@@ -916,7 +917,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Xe"
                 android:id="@+id/tvXenon"
@@ -935,7 +936,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Cs"
                 android:id="@+id/tvCaesium"
@@ -953,7 +954,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Ba"
                 android:id="@+id/tvBarium"
@@ -971,7 +972,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Hf"
                 android:id="@+id/tvHafnium"
@@ -989,7 +990,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Ta"
                 android:id="@+id/tvTantalum"
@@ -1007,7 +1008,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="W"
                 android:id="@+id/tvTungsten"
@@ -1025,7 +1026,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Re"
                 android:id="@+id/tvRhenium"
@@ -1043,7 +1044,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Os"
                 android:id="@+id/tvOsmium"
@@ -1061,7 +1062,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Ir"
                 android:id="@+id/tvIridium"
@@ -1079,7 +1080,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Pt"
                 android:id="@+id/tvPlatinum"
@@ -1097,7 +1098,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Au"
                 android:id="@+id/tvGold"
@@ -1115,7 +1116,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Hg"
                 android:id="@+id/tvMercury"
@@ -1134,7 +1135,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="TI"
                 android:id="@+id/tvThallium"
@@ -1152,7 +1153,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Pb"
                 android:id="@+id/tvLead"
@@ -1171,7 +1172,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Bi"
                 android:id="@+id/tvBismuth"
@@ -1189,7 +1190,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Po"
                 android:id="@+id/tvPolonium"
@@ -1208,7 +1209,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="At"
                 android:id="@+id/tvAstatine"
@@ -1226,7 +1227,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Rn"
                 android:id="@+id/tvRadon"
@@ -1245,7 +1246,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Fr"
                 android:id="@+id/tvFrancium"
@@ -1263,7 +1264,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Be"
                 android:id="@+id/tvBeryllium"
@@ -1281,7 +1282,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="B"
                 android:id="@+id/tvBoron"
@@ -1300,7 +1301,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="C"
                 android:id="@+id/tvCarbon"
@@ -1318,7 +1319,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="N"
                 android:id="@+id/tvNitrogen"
@@ -1337,7 +1338,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="O"
                 android:id="@+id/tvOxygen"
@@ -1356,7 +1357,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="F"
                 android:id="@+id/tvFluorine"
@@ -1375,7 +1376,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Ne"
                 android:id="@+id/tvNeon"
@@ -1394,7 +1395,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Na"
                 android:id="@+id/tvSodium"
@@ -1412,7 +1413,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Mg"
                 android:id="@+id/tvMagnesium"
@@ -1430,7 +1431,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Ra"
                 android:id="@+id/tvRadium"
@@ -1448,7 +1449,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Ti"
                 android:id="@+id/tvTitanium"
@@ -1466,7 +1467,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Rf"
                 android:id="@+id/tvRutherfordium"
@@ -1485,7 +1486,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="V"
                 android:id="@+id/tvVanadium"
@@ -1503,7 +1504,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Cr"
                 android:id="@+id/tvChromium"
@@ -1521,7 +1522,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Mn"
                 android:id="@+id/tvManganese"
@@ -1539,7 +1540,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Fe"
                 android:id="@+id/tvIron"
@@ -1557,7 +1558,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Co"
                 android:id="@+id/tvCobalt"
@@ -1575,7 +1576,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Ni"
                 android:id="@+id/tvNickel"
@@ -1593,7 +1594,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Cu"
                 android:id="@+id/tvCopper"
@@ -1611,7 +1612,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Zn"
                 android:id="@+id/tvZinc"
@@ -1629,7 +1630,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Ga"
                 android:id="@+id/tvGallium"
@@ -1647,7 +1648,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Ge"
                 android:id="@+id/tvGermanium"
@@ -1666,7 +1667,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="As"
                 android:id="@+id/tvArsenic"
@@ -1685,7 +1686,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Se"
                 android:id="@+id/tvSelenium"
@@ -1703,7 +1704,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Br"
                 android:id="@+id/tvBromine"
@@ -1722,7 +1723,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Kr"
                 android:id="@+id/tvKrypton"
@@ -1741,7 +1742,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Db"
                 android:id="@+id/tvDubnium"
@@ -1760,7 +1761,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Sg"
                 android:id="@+id/tvSeaborgium"
@@ -1779,7 +1780,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Bh"
                 android:id="@+id/tvBohrium"
@@ -1798,7 +1799,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Hs"
                 android:id="@+id/tvHassium"
@@ -1817,7 +1818,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Mt"
                 android:id="@+id/tvMeitnerium"
@@ -1836,7 +1837,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Ds"
                 android:id="@+id/tvDarmstadtium"
@@ -1855,7 +1856,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Rg"
                 android:id="@+id/tvRoentgenium"
@@ -1874,7 +1875,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Cn"
                 android:id="@+id/tvCopernicium"
@@ -1893,7 +1894,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Uut"
                 android:id="@+id/tvUnuntrium"
@@ -1912,7 +1913,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Fl"
                 android:id="@+id/tvFlerovium"
@@ -1931,7 +1932,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Uup"
                 android:id="@+id/tvUnunpentium"
@@ -1950,7 +1951,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Lv"
                 android:id="@+id/tvLivermorium"
@@ -1969,7 +1970,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Uus"
                 android:id="@+id/tvUnunseptium"
@@ -1988,7 +1989,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Uuo"
                 android:id="@+id/tvUnunoctium"
@@ -2007,13 +2008,13 @@
 
             <Space
                 android:layout_width="44dp"
-                android:layout_height="16dp"
+                android:layout_height="5dp"
                 android:layout_row="7"
                 android:layout_column="2" />
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="La"
                 android:id="@+id/tvLanthanum"
@@ -2032,7 +2033,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Ce"
                 android:id="@+id/tvCerium"
@@ -2051,7 +2052,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Pr"
                 android:id="@+id/tvPraseodymium"
@@ -2070,7 +2071,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Nd"
                 android:id="@+id/tvNeodymium"
@@ -2089,7 +2090,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Pm"
                 android:id="@+id/tvPromethium"
@@ -2108,7 +2109,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Sm"
                 android:id="@+id/tvSamarium"
@@ -2127,7 +2128,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Eu"
                 android:id="@+id/tvEuropium"
@@ -2146,7 +2147,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Gd"
                 android:id="@+id/tvGadolinium"
@@ -2165,7 +2166,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Tb"
                 android:id="@+id/tvTerbium"
@@ -2184,7 +2185,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Dy"
                 android:id="@+id/tvDysprosium"
@@ -2203,7 +2204,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Ho"
                 android:id="@+id/tvHolmium"
@@ -2222,7 +2223,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Er"
                 android:id="@+id/tvErbium"
@@ -2241,7 +2242,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Tm"
                 android:id="@+id/tvThulium"
@@ -2260,7 +2261,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Yb"
                 android:id="@+id/tvYtterbium"
@@ -2279,7 +2280,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Lu"
                 android:id="@+id/tvLutetium"
@@ -2298,7 +2299,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Ac"
                 android:id="@+id/tvActinium"
@@ -2317,7 +2318,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Th"
                 android:id="@+id/tvThorium"
@@ -2336,7 +2337,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Pa"
                 android:id="@+id/tvProtactinium"
@@ -2355,7 +2356,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="U"
                 android:id="@+id/tvUranium"
@@ -2374,7 +2375,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Np"
                 android:id="@+id/tvNeptunium"
@@ -2393,7 +2394,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Pu"
                 android:id="@+id/tvPlutonium"
@@ -2412,7 +2413,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Am"
                 android:id="@+id/tvAmericium"
@@ -2431,7 +2432,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Cm"
                 android:id="@+id/tvCurium"
@@ -2450,7 +2451,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Bk"
                 android:id="@+id/tvBerkelium"
@@ -2469,7 +2470,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Cf"
                 android:id="@+id/tvCalifornium"
@@ -2488,7 +2489,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Es"
                 android:id="@+id/tvEinsteinium"
@@ -2507,7 +2508,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Fm"
                 android:id="@+id/tvFermium"
@@ -2526,7 +2527,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Md"
                 android:id="@+id/tvMendelevium"
@@ -2545,7 +2546,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="No"
                 android:id="@+id/tvNobelium"
@@ -2564,7 +2565,7 @@
 
             <TextView
                 android:layout_width="44dp"
-                android:layout_height="40dp"
+                android:layout_height="38dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Lr"
                 android:id="@+id/tvLawrencium"
@@ -2592,5 +2593,13 @@
 
             android:layout_gravity="center_horizontal" />
     </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgTutorial"
+        android:src="@drawable/setapequena"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentEnd="false"/>
 
 </RelativeLayout>
