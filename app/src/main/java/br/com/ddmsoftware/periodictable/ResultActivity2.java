@@ -6,48 +6,45 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
-import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TabHost;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 
 public class ResultActivity2 extends AppCompatActivity {
 
-    public static final String URL_MESSAGE = new String ("br.com.ddmsoftware.periodictable.URLMESSAGE");
+    public static final String URL_MESSAGE = "br.com.ddmsoftware.periodictable.URLMESSAGE";
 
+    private String url = "";
+    private int iDefaultImageNotFound;
 
-    String[] aResult = new String[16];
-    String url = "";
-    int iDefaultImageNotFound;
+    private TextView tvResult_info1;
+    private TextView tvResult_info2;
+    private TextView tvResult_info3;
+    private TextView tvResult_info4;
+    private TextView tvResult_info5;
+    private TextView tvResult_info6;
+    private TextView tvResult_info7;
+    private TextView tvResult_info8;
+    private TextView tvResult_info9;
 
-    TextView tvResult_info1;
-    TextView tvResult_info2;
-    TextView tvResult_info3;
-    TextView tvResult_info4;
-    TextView tvResult_info5;
-    TextView tvResult_info6;
-    TextView tvResult_info7;
-    TextView tvResult_info8;
-    TextView tvResult_info9;
-
-    ImageView imgResult;
+    private ImageView imgResult;
 
     private enum Elements {
         H,He, Li, Be,B,C,N,O,F,Ne,Na,Mg,Al,Si,P,S,Cl,Ar,K,Ca,Sc,Ti,V,Cr,Mn,
         Fe,Co,Ni,Cu,Zn,Ga,Ge,As,Se,Br,Kr,Rb,Sr,Y,Zr,Nb,Mo,Tc,Ru,Rh,Pd,Ag,Cd,In,Sn,Sb,Te,I,Xe,Cs,
         Ba,La,Ce,Pr,Nd,Pm,Sm,Eu,Gd,Tb,Dy,Ho,Er,Tm,Yb,Lu,Hf,Ta,W,Re,Os,Ir,Pt,Au,Hg,Tl,Pb,Bi,Po,At,
         Rn,Fr,Ra,Ac,Th,Pa,U,Np, Pu, Am, Cm,Bk, Cf, Es, Fm, Md, No, Lr, Rf, Db, Sg, Bh, Hs, Mt,
-        Ds,Rg, Cn, Uut, Fl, Uup, Lv, Uus, Uuo;
+        Ds,Rg, Cn, Uut, Fl, Uup, Lv, Uus, Uuo
     }
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_result2);
+
 
         tvResult_info1 = (TextView) findViewById(R.id.tvResult_Info1);
         tvResult_info2 = (TextView) findViewById(R.id.tvResult_Info2);
@@ -103,7 +100,7 @@ public class ResultActivity2 extends AppCompatActivity {
 
     }
 
-    private void createTabHost() {
+   /* private void createTabHost() {
         TabHost tabHost = (TabHost) findViewById(R.id.tabHost);
         tabHost.setup();
 
@@ -120,7 +117,7 @@ public class ResultActivity2 extends AppCompatActivity {
         tabHost.addTab(spec);
 
         // Add more lines
-    }
+    }*/
 
     private void receiveDataFromActivity() {
 
@@ -133,13 +130,14 @@ public class ResultActivity2 extends AppCompatActivity {
         URL[15]	                Image[16]*/
 
         //WebView browser = (WebView) findViewById(R.id.webView);
+        String[] aResult;
 
         Intent intent = getIntent();
 
         Bundle extra = intent.getExtras();
         String message = extra.getString(MainActivity.EXTRA_MESSAGE);
 
-        aResult = message.split(";");
+        aResult = message != null ? message.split( ";" ) : new String[0];
 
         tvResult_info1.setText(aResult[0] + " - " + aResult[2] + " (" + aResult[1] +")");
         tvResult_info2.setText(aResult[3]); // "Nome em Latim: "
@@ -154,29 +152,6 @@ public class ResultActivity2 extends AppCompatActivity {
         url = aResult[15];
 
         setElementImage(aResult[1]);
-
-        //Toast.makeText(ResultActivity.this, "MENSAGEM-> " + aResult[0] + " - " + aResult[2] + " - " + aResult[10] + aResult[16], Toast.LENGTH_SHORT).show();
-
-        if (message.equals("H")) {
-
-            url = "https://pt.wikipedia.org/wiki/Hidrog%C3%A9nio";
-
-        }
-/*
-        if (!url.equals("")) {
-            // Carrega Imagens Automaticamente
-            browser.getSettings().setLoadsImagesAutomatically(true);
-            // Habilita Suporte ao Java SCript
-            //browser.getSettings().setJavaScriptEnabled(true);
-
-            // habilita As barras de rolagem lateral
-            browser.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
-
-            // Carrega as configuracoes de Navegacao dentro da WebView -- metodo implementado abaixo
-            browser.setWebViewClient(new MyBrowser());
-            browser.loadUrl(url);
-        } else Toast.makeText(ResultActivity2.this, "URL em branco.", Toast.LENGTH_SHORT).show();
-        */
     }
 
     private class MyBrowser extends WebViewClient {

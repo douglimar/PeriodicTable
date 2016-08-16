@@ -21,10 +21,6 @@
             android:columnCount="18"
             android:rowCount="13"
             android:id="@+id/gridLayout"
-            android:layout_alignParentBottom="false"
-            android:layout_alignParentRight="false"
-            android:layout_alignParentEnd="false"
-            android:scrollIndicators="right"
             android:layout_gravity="center_horizontal">
 
             <GridLayout
@@ -2471,6 +2467,7 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/image_description"
         android:id="@+id/imgTutorial"
         android:src="@drawable/setapequena"
         android:layout_centerHorizontal="true"

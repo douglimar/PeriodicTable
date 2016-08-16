@@ -19,138 +19,140 @@ import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.common.api.GoogleApiClient;
 
+import java.util.Locale;
+
 public class MainActivity extends AppCompatActivity {
 
-    public static final String EXTRA_MESSAGE = new String ("br.com.ddmsoftware.periodictable.MESSAGE");
+    public static final String EXTRA_MESSAGE = "br.com.ddmsoftware.periodictable.MESSAGE";
 
-    String message ="";
+    private String message ="";
 
-    TextView tvNroAtomico;
-    TextView tvSimbolo;
-    TextView tvNome;
-    TextView tvMassa;
-    GridLayout gridResult;
-    periodicTablePortuguese pt;
-    ImageView imgFirstbootTuto;
+    private TextView tvNroAtomico;
+    private TextView tvSimbolo;
+    private TextView tvNome;
+    private TextView tvMassa;
+    private GridLayout gridResult;
+    private periodicTable pt;
+    private ImageView imgFirstbootTuto;
 
-    TextView tvHydrogenium;
-    TextView tvHelium;
-    TextView tvLithium;
-    TextView tvBeryllium;
-    TextView tvBorium;
-    TextView tvCarbonium;
-    TextView tvNitrogenium;
-    TextView tvOxygenium;
-    TextView tvFluorum;
-    TextView tvNeon;
-    TextView tvNatrium;
-    TextView tvMagnesium;
-    TextView tvAlumen;
-    TextView tvSilicium;
-    TextView tvPhosphorus;
-    TextView tvSulphur;
-    TextView tvClorum;
-    TextView tvArgon;
-    TextView tvKalium;
-    TextView tvCalcium;
-    TextView tvScandium;
-    TextView tvTitanium;
-    TextView tvVanadium;
-    TextView tvChromium;
-    TextView tvManganum;
-    TextView tvFerrum;
-    TextView tvCobaltum;
-    TextView tvNiccolum;
-    TextView tvCuprum;
-    TextView tvZincum;
-    TextView tvGalium;
-    TextView tvGermanium;
-    TextView tvArsenicum;
-    TextView tvSelenium;
-    TextView tvBromum;
-    TextView tvKrypton;
-    TextView tvRubidium;
-    TextView tvStrontium;
-    TextView tvYttrium;
-    TextView tvZirconium;
-    TextView tvNiobium;
-    TextView tvMolybdenum;
-    TextView tvTechnetium;
-    TextView tvRuthenium;
-    TextView tvRhodium;
-    TextView tvPalladium;
-    TextView tvArgentum;
-    TextView tvCadmium;
-    TextView tvIndium;
-    TextView tvStannum;
-    TextView tvStibium;
-    TextView tvTellurium;
-    TextView tvIodum;
-    TextView tvXenon;
-    TextView tvCaesium;
-    TextView tvBarium;
-    TextView tvLanthanum;
-    TextView tvCerium;
-    TextView tvPraseodymium;
-    TextView tvNeodymium;
-    TextView tvPromethium;
-    TextView tvSamarium;
-    TextView tvEuropium;
-    TextView tvGadolinium;
-    TextView tvTerbium;
-    TextView tvDysprosium;
-    TextView tvHolmium;
-    TextView tvErbium;
-    TextView tvThulium;
-    TextView tvYtterbium;
-    TextView tvLutetium;
-    TextView tvHafnium;
-    TextView tvTantalum;
-    TextView tvWolframium;
-    TextView tvRhenium;
-    TextView tvOsmium;
-    TextView tvIridium;
-    TextView tvPlatinum;
-    TextView tvAurum;
-    TextView tvHydrargyrum;
-    TextView tvThallium;
-    TextView tvPlumbum;
-    TextView tvBismuthum;
-    TextView tvPolonium;
-    TextView tvAstatum;
-    TextView tvRadon;
-    TextView tvFrancium;
-    TextView tvRadium;
-    TextView tvActinium;
-    TextView tvThorium;
-    TextView tvProtactinium;
-    TextView tvUranium;
-    TextView tvNeptunium;
-    TextView tvPlutonium;
-    TextView tvAmericium;
-    TextView tvCurium;
-    TextView tvBerkelium;
-    TextView tvCalifornium;
-    TextView tvEinsteinium;
-    TextView tvFermium;
-    TextView tvMendelevium;
-    TextView tvNobelium;
-    TextView tvLawrencium;
-    TextView tvRhuterfordium;
-    TextView tvDubnium;
-    TextView tvSeaborgium;
-    TextView tvBohrium;
-    TextView tvHassium;
-    TextView tvMeitnerium;
-    TextView tvDarmstadtium;
-    TextView tvRoentgenium;
-    TextView tvCopernicium;
-    TextView tvUnuntrium;
-    TextView tvFlerovium;
-    TextView tvUnunpentium;
-    TextView tvLivermorium;
-    TextView tvUnunsentium;
-    TextView tvUnunoctium;
+    private TextView tvHydrogenium;
+    private TextView tvHelium;
+    private TextView tvLithium;
+    private TextView tvBeryllium;
+    private TextView tvBorium;
+    private TextView tvCarbonium;
+    private TextView tvNitrogenium;
+    private TextView tvOxygenium;
+    private TextView tvFluorum;
+    private TextView tvNeon;
+    private TextView tvNatrium;
+    private TextView tvMagnesium;
+    private TextView tvAlumen;
+    private TextView tvSilicium;
+    private TextView tvPhosphorus;
+    private TextView tvSulphur;
+    private TextView tvClorum;
+    private TextView tvArgon;
+    private TextView tvKalium;
+    private TextView tvCalcium;
+    private TextView tvScandium;
+    private TextView tvTitanium;
+    private TextView tvVanadium;
+    private TextView tvChromium;
+    private TextView tvManganum;
+    private TextView tvFerrum;
+    private TextView tvCobaltum;
+    private TextView tvNiccolum;
+    private TextView tvCuprum;
+    private TextView tvZincum;
+    private TextView tvGalium;
+    private TextView tvGermanium;
+    private TextView tvArsenicum;
+    private TextView tvSelenium;
+    private TextView tvBromum;
+    private TextView tvKrypton;
+    private TextView tvRubidium;
+    private TextView tvStrontium;
+    private TextView tvYttrium;
+    private TextView tvZirconium;
+    private TextView tvNiobium;
+    private TextView tvMolybdenum;
+    private TextView tvTechnetium;
+    private TextView tvRuthenium;
+    private TextView tvRhodium;
+    private TextView tvPalladium;
+    private TextView tvArgentum;
+    private TextView tvCadmium;
+    private TextView tvIndium;
+    private TextView tvStannum;
+    private TextView tvStibium;
+    private TextView tvTellurium;
+    private TextView tvIodum;
+    private TextView tvXenon;
+    private TextView tvCaesium;
+    private TextView tvBarium;
+    private TextView tvLanthanum;
+    private TextView tvCerium;
+    private TextView tvPraseodymium;
+    private TextView tvNeodymium;
+    private TextView tvPromethium;
+    private TextView tvSamarium;
+    private TextView tvEuropium;
+    private TextView tvGadolinium;
+    private TextView tvTerbium;
+    private TextView tvDysprosium;
+    private TextView tvHolmium;
+    private TextView tvErbium;
+    private TextView tvThulium;
+    private TextView tvYtterbium;
+    private TextView tvLutetium;
+    private TextView tvHafnium;
+    private TextView tvTantalum;
+    private TextView tvWolframium;
+    private TextView tvRhenium;
+    private TextView tvOsmium;
+    private TextView tvIridium;
+    private TextView tvPlatinum;
+    private TextView tvAurum;
+    private TextView tvHydrargyrum;
+    private TextView tvThallium;
+    private TextView tvPlumbum;
+    private TextView tvBismuthum;
+    private TextView tvPolonium;
+    private TextView tvAstatum;
+    private TextView tvRadon;
+    private TextView tvFrancium;
+    private TextView tvRadium;
+    private TextView tvActinium;
+    private TextView tvThorium;
+    private TextView tvProtactinium;
+    private TextView tvUranium;
+    private TextView tvNeptunium;
+    private TextView tvPlutonium;
+    private TextView tvAmericium;
+    private TextView tvCurium;
+    private TextView tvBerkelium;
+    private TextView tvCalifornium;
+    private TextView tvEinsteinium;
+    private TextView tvFermium;
+    private TextView tvMendelevium;
+    private TextView tvNobelium;
+    private TextView tvLawrencium;
+    private TextView tvRhuterfordium;
+    private TextView tvDubnium;
+    private TextView tvSeaborgium;
+    private TextView tvBohrium;
+    private TextView tvHassium;
+    private TextView tvMeitnerium;
+    private TextView tvDarmstadtium;
+    private TextView tvRoentgenium;
+    private TextView tvCopernicium;
+    private TextView tvUnuntrium;
+    private TextView tvFlerovium;
+    private TextView tvUnunpentium;
+    private TextView tvLivermorium;
+    private TextView tvUnunsentium;
+    private TextView tvUnunoctium;
     //WebView wv;
     /**
      * ATTENTION: This was auto-generated to implement the App Indexing API.
@@ -159,7 +161,7 @@ public class MainActivity extends AppCompatActivity {
     private GoogleApiClient client;
 
     // To validate Application First Run
-    SharedPreferences prefs = null;
+    private SharedPreferences prefs = null;
 
     @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
     @Override
@@ -171,6 +173,11 @@ public class MainActivity extends AppCompatActivity {
         prefs = getSharedPreferences("br.com.ddmsoftware.periodictable", MODE_PRIVATE);
         //prefs.edit().putBoolean("firstRun", true).commit();
 
+        // Code to Change Wallpaper dinamically, according to the environment Language
+        // DDM code
+        String lang = Locale.getDefault().getDisplayLanguage();
+
+        //Toast.makeText(MainActivity.this, lang, Toast.LENGTH_SHORT).show();
 
         gridResult = (GridLayout) findViewById(R.id.gridResult);
 
@@ -184,10 +191,7 @@ public class MainActivity extends AppCompatActivity {
         imgFirstbootTuto = (ImageView) findViewById( R.id.imgTutorial );
 
         imgFirstbootTuto.setVisibility( View.INVISIBLE );
-
-
-        pt = new periodicTablePortuguese();
-        pt.getAllElements();
+        pt = new periodicTable();
 
         //clearElementsTable();
 
@@ -199,50 +203,39 @@ public class MainActivity extends AppCompatActivity {
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
 
-
         tvSimbolo.setOnClickListener(new View.OnClickListener() {
             @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, ResultActivity2.class);
-                intent.putExtra(EXTRA_MESSAGE, message);
-                startActivity(intent);
+                onElementsClick();
             }
         });
         tvNroAtomico.setOnClickListener(new View.OnClickListener() {
             @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, ResultActivity2.class);
-                intent.putExtra(EXTRA_MESSAGE, message);
-                startActivity(intent);
+                onElementsClick();
             }
         });
         tvMassa.setOnClickListener(new View.OnClickListener() {
             @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, ResultActivity2.class);
-                intent.putExtra(EXTRA_MESSAGE, message);
-                startActivity(intent);
+                onElementsClick();
             }
         });
         tvNome.setOnClickListener(new View.OnClickListener() {
             @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, ResultActivity2.class);
-                intent.putExtra(EXTRA_MESSAGE, message);
-                startActivity(intent);
+                onElementsClick();
             }
         });
         gridResult.setOnClickListener(new View.OnClickListener() {
             @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, ResultActivity2.class);
-                intent.putExtra(EXTRA_MESSAGE, message);
-                startActivity(intent);
+                onElementsClick();
             }
         });
 
@@ -1210,23 +1203,23 @@ public class MainActivity extends AppCompatActivity {
 */
 
         //showElementOnScreen(pt.Hydrogenium, tvHydrogenium);
+        //gridResult.setBackground(tvHydrogenium.getBackground());
         message = pt.Hydrogenium[0] +";"+pt.Hydrogenium[1] +";"+pt.Hydrogenium[2] +";"+pt.Hydrogenium[3] +";"+pt.Hydrogenium[4] +";"+pt.Hydrogenium[5] +";"+
                 pt.Hydrogenium[6] +";"+pt.Hydrogenium[7] +";"+pt.Hydrogenium[8] +";"+pt.Hydrogenium[9] +";"+pt.Hydrogenium[10]+";"+pt.Hydrogenium[11]+";"+
                 pt.Hydrogenium[12]+";"+pt.Hydrogenium[13]+";"+pt.Hydrogenium[14]+";"+pt.Hydrogenium[15]+";"+pt.Hydrogenium[16];
+
+        if ((!lang.equals("pt")) && (!lang.equals("português"))){
+            pt.getAllEnglishElements();
+            imgFirstbootTuto.setImageResource( R.drawable.setapequena_en );
+
+        } else {
+            pt.getAllPortugueseElements();
+            imgFirstbootTuto.setImageResource( R.drawable.setapequena );
+        }
     }
 
     @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
-    public void clearElementsTable() {
-        tvNroAtomico.setText(""); // Nro. Atomico
-        tvSimbolo.setText(""); // Simbolo
-        tvNome.setText(""); // Nome em Portugues
-        tvMassa.setText(""); // Massa
-
-        gridResult.setBackground(null);
-    }
-
-    @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
-    public void showElementOnScreen(String[] element, TextView tvTarget) {
+    private void showElementOnScreen(String[] element, TextView tvTarget) {
         /*
         Z[0]                    Sym[1]	                Element[2]
         Oficiallatim[3]	        Origin of name[4]       Group[5]
@@ -1246,8 +1239,6 @@ public class MainActivity extends AppCompatActivity {
             imgFirstbootTuto.setVisibility( View.INVISIBLE );
         }
 
-
-
         //tvNroAtomico.setBackground( tvTarget.getBackground());
         //tvSimbolo.setBackground( tvTarget.getBackground());
         //tvNome.setBackground( tvTarget.getBackground());
@@ -1260,10 +1251,6 @@ public class MainActivity extends AppCompatActivity {
                   element[12]+";"+element[13]+";"+element[14]+";"+element[15]+";"+element[16];
     }
 
-    public void sendExtraMessageToNewActivity(){
-
-
-    }
 
     public void showMessage(String message) {
 
@@ -1273,6 +1260,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public void onStart() {
         super.onStart();
+
+        //Toast.makeText( MainActivity.this, "Dentro do On Start", Toast.LENGTH_SHORT ).show();
 
         // ATTENTION: This was auto-generated to implement the App Indexing API.
         // See https://g.co/AppIndexing/AndroidStudio for more information.
@@ -1314,16 +1303,28 @@ public class MainActivity extends AppCompatActivity {
     public void onResume(){
         super.onResume();
 
-        Toast.makeText( MainActivity.this, "Estoy aki", Toast.LENGTH_SHORT ).show();
-        imgFirstbootTuto.setVisibility( View.INVISIBLE );
+        //Toast.makeText( MainActivity.this, "Estoy aki", Toast.LENGTH_SHORT ).show();
+        //imgFirstbootTuto.setVisibility( View.INVISIBLE );
+
+        showElementOnScreen(pt.Hydrogenium, tvHydrogenium);
+
 
         // Validate First Run of Application
         if (prefs.getBoolean("firstRun", true)) {
 
-            Toast.makeText( MainActivity.this, "First Run...", Toast.LENGTH_SHORT ).show();
+            showElementOnScreen(pt.Hydrogenium, tvHydrogenium);
+
             imgFirstbootTuto.setVisibility( View.VISIBLE );
-            prefs.edit().putBoolean("firstRun", false).commit();
+           // Toast.makeText( MainActivity.this, "First Run...", Toast.LENGTH_SHORT ).show();
+            prefs.edit().putBoolean("firstRun", false).apply();
         }
+    }
+
+    private void onElementsClick(){
+        imgFirstbootTuto.setVisibility( View.INVISIBLE );
+        Intent intent = new Intent(MainActivity.this, ResultActivity2.class);
+        intent.putExtra(EXTRA_MESSAGE, message);
+        startActivity(intent);
     }
 
 }

@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="br.com.ddmsoftware.periodictable.ResultActivity">
+    tools:context="br.com.ddmsoftware.periodictable.ResultActivity2">
 
     <LinearLayout
         android:orientation="vertical"
@@ -27,6 +27,7 @@
                 android:layout_width="96dp"
                 android:layout_height="96dp"
                 android:id="@+id/imgResultInfo"
+                android:contentDescription="@string/image_description"
                 android:layout_column="0"
                 android:layout_row="0"
                 android:layout_rowSpan="4"
@@ -59,7 +60,8 @@
                 android:layout_row="2"
                 android:layout_column="2"
                 android:textStyle="bold"
-                android:paddingRight="3dp" />
+                android:paddingRight="3dp"
+                android:paddingLeft="1dp"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -94,7 +96,8 @@
                 android:layout_row="3"
                 android:layout_column="2"
                 android:textStyle="bold"
-                android:paddingRight="3dp" />
+                android:paddingRight="3dp"
+                android:paddingLeft="1dp"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -113,7 +116,8 @@
                 android:layout_row="3"
                 android:layout_column="5"
                 android:textStyle="bold"
-                android:paddingRight="3dp" />
+                android:paddingRight="3dp"
+                android:paddingLeft="1dp"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -131,7 +135,8 @@
                 android:layout_row="4"
                 android:layout_column="2"
                 android:textStyle="bold"
-                android:paddingRight="3dp" />
+                android:paddingRight="3dp"
+                android:paddingLeft="1dp"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -149,7 +154,8 @@
                 android:layout_row="4"
                 android:layout_column="5"
                 android:textStyle="bold"
-                android:paddingRight="3dp" />
+                android:paddingRight="3dp"
+                android:paddingLeft="1dp"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -167,7 +173,8 @@
                 android:layout_row="5"
                 android:layout_column="2"
                 android:textStyle="bold"
-                android:paddingRight="3dp" />
+                android:paddingRight="3dp"
+                android:paddingLeft="1dp"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -185,7 +192,8 @@
                 android:textStyle="bold"
                 android:layout_column="5"
                 android:layout_row="5"
-                android:paddingRight="3dp" />
+                android:paddingRight="3dp"
+                android:paddingLeft="1dp"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -205,6 +213,7 @@
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:contentDescription="@string/image_description"
                 android:id="@+id/imgBtnBack"
                 android:src="@drawable/back"
                 android:background="@color/background_material_light"
@@ -215,6 +224,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/imgBtnWiki"
+                android:contentDescription="@string/image_description"
                 android:src="@drawable/wiki"
                 android:background="@color/background_material_light"
                 android:layout_margin="8dp"
@@ -224,6 +234,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/imageButton3"
+                android:contentDescription="@string/image_description"
                 android:src="@drawable/share"
                 android:background="@color/background_material_light"
                 android:layout_margin="8dp"

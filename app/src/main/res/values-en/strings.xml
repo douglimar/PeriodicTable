@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Periodic Table</string>
+    <string name="alert_dialog_cancel">Cancel</string>
+    <string name="alert_dialog_ok">OK</string>
+    <string name="alert_dialog_two_buttons_title">Title</string>
+    <string name="btnBack">Return</string>
+    <string name="btnShare">Share</string>
+    <string name="btnWikipedia">More info (Wikipedia)</string>
+    <string name="hello_blank_fragment">Hello blank </string>
+    <string name="image_description">Image not Found</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_ad_unit_TESTE">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="lr">Lr</string>
+    <string name="tvAtomicWeight">Atomic Weight:</string>
+    <string name="tvResultDensity">Density:</string>
+    <string name="tvResultGroupName">Group Name:</string>
+    <string name="tvResultPeriod">Period:</string>
+    <string name="tvResultPontoEbulicao">Boiling Point:</string>
+    <string name="tvResultPontoFusao">Melting Point:</string>
+    <string name="tvResult_LatinName">Latim Name:</string>
+    <string name="metais_alcalinos">Alkali metal</string>
+    <string name="metais_alcalino_terrosos">Alkaline earth metal</string>
+    <string name="met_is_de_transi_o">Transition Metals</string>
+    <string name="semi_metais">Semi-metals</string>
+    <string name="n_o_metais">Non-Metals</string>
+    <string name="halogenios">Halogens</string>
+    <string name="gases_nobres">Noble Gases</string>
+    <string name="lantan_deos">Lanthanides</string>
+    <string name="met_is_representativos">Representative Metals</string>
+    <string name="actin_deos">Actinides</string>
+</resources>

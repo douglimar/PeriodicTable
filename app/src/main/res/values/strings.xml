@@ -1,5 +1,4 @@
 <resources>
-    <string name="app_name">PeriodicTable</string>
     <string name="alert_dialog_ok">OK</string>
     <string name="alert_dialog_two_buttons_title">Titulo da Bagaça</string>
     <string name="alert_dialog_cancel">CANCELAR</string>
@@ -16,7 +15,19 @@
     <string name="tvResultDensity">Densidade: </string>
     <string name="tvResultPontoFusao">Ponto de Fusão: </string>
     <string name="tvResultPontoEbulicao">Ponto de Ebulição: </string>
-    <string name="banner_ad_unit_id"></string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
     <string name="banner_ad_unit_TESTE">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="image_description">Image not Found</string>
     <string name="lr">Lr</string>
+    <string name="app_name">Tabela Periódica</string>
+    <string name="metais_alcalinos">Metais Alcalinos</string>
+    <string name="metais_alcalino_terrosos">Metais Alcalino-terrosos</string>
+    <string name="met_is_de_transi_o">Metais de Transição</string>
+    <string name="lantan_deos">Lantanídeos</string>
+    <string name="actin_deos">Actinídeos</string>
+    <string name="met_is_representativos">Metais representativos</string>
+    <string name="semi_metais">Semi-metais</string>
+    <string name="n_o_metais">Não-metais</string>
+    <string name="halogenios">Halogenios</string>
+    <string name="gases_nobres">Gases nobres</string>
 </resources>

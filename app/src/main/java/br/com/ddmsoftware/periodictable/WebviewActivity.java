@@ -7,7 +7,6 @@ import android.view.View;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.ImageButton;
-import android.widget.Toast;
 
 public class WebviewActivity extends AppCompatActivity {
 
@@ -29,13 +28,11 @@ public class WebviewActivity extends AppCompatActivity {
         Intent intent = getIntent();
 
         Bundle extra = intent.getExtras();
-        String message = extra.getString(ResultActivity2.URL_MESSAGE);
-
-        String url = message;
+        String url = extra.getString(ResultActivity2.URL_MESSAGE);
 
         WebView browser = (WebView)findViewById(R.id.webView2);
 
-        if (!url.equals("")) {
+        if (!(url != null && url.equals( "" ))) {
             // Carrega Imagens Automaticamente
             browser.getSettings().setLoadsImagesAutomatically(true);
             // Habilita Suporte ao Java SCript

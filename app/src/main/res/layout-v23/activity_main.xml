@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:ads="http://schemas.android.com/apk/res-auto"
@@ -441,7 +440,7 @@
 
             <TextView
                 android:layout_width="28dp"
-                android:layout_height="20dp"
+                android:layout_height="25dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="AI"
                 android:id="@+id/tvAluminium"
@@ -458,7 +457,7 @@
 
             <TextView
                 android:layout_width="28dp"
-                android:layout_height="20dp"
+                android:layout_height="25dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Si"
                 android:id="@+id/tvSilicon"
@@ -476,7 +475,7 @@
 
             <TextView
                 android:layout_width="28dp"
-                android:layout_height="20dp"
+                android:layout_height="25dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="P"
                 android:id="@+id/tvPhosphorus"
@@ -493,7 +492,7 @@
 
             <TextView
                 android:layout_width="28dp"
-                android:layout_height="20dp"
+                android:layout_height="25dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="S"
                 android:id="@+id/tvSulfur"
@@ -510,7 +509,7 @@
 
             <TextView
                 android:layout_width="28dp"
-                android:layout_height="20dp"
+                android:layout_height="25dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="CI"
                 android:id="@+id/tvChlorine"
@@ -528,7 +527,7 @@
 
             <TextView
                 android:layout_width="28dp"
-                android:layout_height="20dp"
+                android:layout_height="25dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Ar"
                 android:id="@+id/tvArgon"
@@ -1340,7 +1339,7 @@
 
             <TextView
                 android:layout_width="28dp"
-                android:layout_height="20dp"
+                android:layout_height="25dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Na"
                 android:id="@+id/tvSodium"
@@ -1357,7 +1356,7 @@
 
             <TextView
                 android:layout_width="28dp"
-                android:layout_height="20dp"
+                android:layout_height="25dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Mg"
                 android:id="@+id/tvMagnesium"
@@ -2472,6 +2471,7 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/image_description"
         android:id="@+id/imgTutorial"
         android:src="@drawable/setapequena"
         android:layout_centerHorizontal="true"
