@@ -1,9 +1,12 @@
 package br.com.ddmsoftware.periodictable;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.ImageButton;
@@ -14,7 +17,38 @@ import android.widget.TextView;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 
-public class ResultActivity2 extends AppCompatActivity {
+import br.com.ddmsoftware.periodictable.util.SystemUiHider;
+
+public class ResultActivity2 extends Activity {
+
+    /**
+     * Whether or not the system UI should be auto-hidden after
+     * {@link #AUTO_HIDE_DELAY_MILLIS} milliseconds.
+     */
+    private static final boolean AUTO_HIDE = true;
+
+    /**
+     * If {@link #AUTO_HIDE} is set, the number of milliseconds to wait after
+     * user interaction before hiding the system UI.
+     */
+    private static final int AUTO_HIDE_DELAY_MILLIS = 3000;
+
+    /**
+     * If set, will toggle the system UI visibility upon interaction. Otherwise,
+     * will show the system UI visibility upon interaction.
+     */
+    private static final boolean TOGGLE_ON_CLICK = true;
+
+    /**
+     * The flags to pass to {@link SystemUiHider#getInstance}.
+     */
+    private static final int HIDER_FLAGS = SystemUiHider.FLAG_HIDE_NAVIGATION;
+
+    /**
+     * The instance of the {@link SystemUiHider} for this activity.
+     */
+    private SystemUiHider mSystemUiHider;
+
 
     public static final String URL_MESSAGE = "br.com.ddmsoftware.periodictable.URLMESSAGE";
 
@@ -43,8 +77,13 @@ public class ResultActivity2 extends AppCompatActivity {
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_result2);
+        // Hiding Title Bar and Setting FullScreen Mode
+        requestWindowFeature( Window.FEATURE_NO_TITLE);
+        //requestWindowFeature( Window.FEATURE_CUSTOM_TITLE);
 
+        getWindow().setFlags( WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+
+        setContentView(R.layout.activity_result2);
 
         tvResult_info1 = (TextView) findViewById(R.id.tvResult_Info1);
         tvResult_info2 = (TextView) findViewById(R.id.tvResult_Info2);

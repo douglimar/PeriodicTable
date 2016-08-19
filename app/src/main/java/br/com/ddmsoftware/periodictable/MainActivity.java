@@ -1,6 +1,9 @@
 package br.com.ddmsoftware.periodictable;
 
+
+import br.com.ddmsoftware.periodictable.util.*;
 import android.annotation.TargetApi;
+import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.Uri;
@@ -8,6 +11,8 @@ import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.GridLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -22,6 +27,35 @@ import com.google.android.gms.common.api.GoogleApiClient;
 import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
+
+    /**
+     * Whether or not the system UI should be auto-hidden after
+     * {@link #AUTO_HIDE_DELAY_MILLIS} milliseconds.
+     */
+    private static final boolean AUTO_HIDE = true;
+
+    /**
+     * If {@link #AUTO_HIDE} is set, the number of milliseconds to wait after
+     * user interaction before hiding the system UI.
+     */
+    private static final int AUTO_HIDE_DELAY_MILLIS = 3000;
+
+    /**
+     * If set, will toggle the system UI visibility upon interaction. Otherwise,
+     * will show the system UI visibility upon interaction.
+     */
+    private static final boolean TOGGLE_ON_CLICK = true;
+
+    /**
+     * The flags to pass to {@link SystemUiHider#getInstance}.
+     */
+    private static final int HIDER_FLAGS = SystemUiHider.FLAG_HIDE_NAVIGATION;
+
+    /**
+     * The instance of the {@link SystemUiHider} for this activity.
+     */
+    private SystemUiHider mSystemUiHider;
+
 
     public static final String EXTRA_MESSAGE = "br.com.ddmsoftware.periodictable.MESSAGE";
 
@@ -167,7 +201,13 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        // Hiding Title Bar and Setting FullScreen Mode
+        requestWindowFeature( Window.FEATURE_NO_TITLE);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+
         setContentView(R.layout.activity_main);
+
         // Perhaps set content view here
         // To validate Application First Run (First boot)
         prefs = getSharedPreferences("br.com.ddmsoftware.periodictable", MODE_PRIVATE);
@@ -1239,11 +1279,10 @@ public class MainActivity extends AppCompatActivity {
             imgFirstbootTuto.setVisibility( View.INVISIBLE );
         }
 
-        //tvNroAtomico.setBackground( tvTarget.getBackground());
-        //tvSimbolo.setBackground( tvTarget.getBackground());
-        //tvNome.setBackground( tvTarget.getBackground());
-        //tvMassa.setBackground( tvTarget.getBackground());
-
+        /*tvNroAtomico.setBackground( tvTarget.getBackground());
+        tvSimbolo.setBackground( tvTarget.getBackground());
+        tvNome.setBackground( tvTarget.getBackground());
+        tvMassa.setBackground( tvTarget.getBackground());*/
         gridResult.setBackground(tvTarget.getBackground());
 
         message = element[0] +";"+element[1] +";"+element[2] +";"+element[3] +";"+element[4] +";"+element[5] +";"+
@@ -1322,7 +1361,9 @@ public class MainActivity extends AppCompatActivity {
 
     private void onElementsClick(){
         imgFirstbootTuto.setVisibility( View.INVISIBLE );
-        Intent intent = new Intent(MainActivity.this, ResultActivity2.class);
+//        Intent intent = new Intent(MainActivity.this, ResultActivity2.class);
+//        Intent intent = new Intent(MainActivity.this, FullscreenActivity.class);
+        Intent intent = new Intent(MainActivity.this, ActivityResult.class);
         intent.putExtra(EXTRA_MESSAGE, message);
         startActivity(intent);
     }

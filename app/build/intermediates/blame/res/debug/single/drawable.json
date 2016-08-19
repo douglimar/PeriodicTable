@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_light.xml",
-        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\drawable\\common_plus_signin_btn_icon_light.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_text_cursor_material.xml"
     },
     {
-        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_text_cursor_material.xml"
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\drawable\\common_plus_signin_btn_icon_light.xml"
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ac.png",
@@ -33,7 +33,7 @@
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_cab_background_internal_bg.xml"
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_rewind.xml",
@@ -57,11 +57,11 @@
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_btn_radio_material.xml"
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
-        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_ratingbar_material.xml"
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_ratingbar_material.xml"
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tl.png",
@@ -74,6 +74,10 @@
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tm.png",
         "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\tm.png"
+    },
+    {
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.0\\res\\drawable\\design_fab_background.xml"
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\si.png",
@@ -92,8 +96,12 @@
         "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\mg.png"
     },
     {
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.0\\res\\drawable\\navigation_empty_icon.xml"
+    },
+    {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_textfield_search_material.xml"
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sr.png",
@@ -121,7 +129,7 @@
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\be.png",
@@ -140,6 +148,10 @@
         "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\w.png"
     },
     {
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.0\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cl.png",
         "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\cl.png"
     },
@@ -153,11 +165,11 @@
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_tab_indicator_material.xml"
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\k.png",
@@ -168,12 +180,12 @@
         "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\rn.png"
     },
     {
-        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_play.xml",
-        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.4.0\\res\\drawable\\cast_ic_notification_play.xml"
-    },
-    {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\setapequena_en.png",
         "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\setapequena_en.png"
+    },
+    {
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_play.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.4.0\\res\\drawable\\cast_ic_notification_play.xml"
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pr.png",
@@ -188,6 +200,10 @@
         "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\re.png"
     },
     {
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_ic_visibility.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.0\\res\\drawable\\design_ic_visibility.xml"
+    },
+    {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ta.png",
         "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\ta.png"
     },
@@ -197,7 +213,7 @@
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
-        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_ratingbar_indicator_material.xml"
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\kr.png",
@@ -225,7 +241,7 @@
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_switch_thumb_material.xml"
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_switch_thumb_material.xml"
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\th.png",
@@ -249,7 +265,7 @@
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_seekbar_track_material.xml"
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tb.png",
@@ -269,7 +285,7 @@
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_item_background_holo_light.xml"
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\y.png",
@@ -309,7 +325,7 @@
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
-        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_ic_go_search_api_material.xml"
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_ic_go_search_api_material.xml"
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\fe.png",
@@ -321,11 +337,11 @@
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
-        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_ic_clear_material.xml"
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_ic_clear_material.xml"
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
-        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_dialog_material_background.xml"
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_dialog_material_background.xml"
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_pause_large.xml",
@@ -341,11 +357,11 @@
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
-        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_ic_search_api_material.xml"
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_ic_search_api_material.xml"
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_list_selector_holo_dark.xml"
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_disconnect.xml",
@@ -361,11 +377,11 @@
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_edit_text_material.xml"
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_edit_text_material.xml"
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
-        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_seekbar_thumb_material.xml"
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_mute.xml",
@@ -414,6 +430,10 @@
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sn.png",
         "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\sn.png"
+    },
+    {
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_vector_test.xml"
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_forward30.xml",
@@ -501,15 +521,15 @@
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
-        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_ic_ab_back_material.xml"
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_ic_ab_back_material.xml"
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
-        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_play.xml",
@@ -545,7 +565,7 @@
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\po.png",
@@ -565,7 +585,7 @@
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_skip_next.xml",
@@ -577,7 +597,7 @@
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_cab_background_top_material.xml"
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\h.png",
@@ -588,12 +608,12 @@
         "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\src\\main\\res\\drawable\\hf.png"
     },
     {
-        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
-        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_ic_voice_search_api_material.xml"
-    },
-    {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_stop_live_stream.xml",
         "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.4.0\\res\\drawable\\cast_ic_notification_stop_live_stream.xml"
+    },
+    {
+        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_ic_voice_search_api_material.xml"
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\al.png",
@@ -617,11 +637,11 @@
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_list_selector_holo_light.xml"
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
-        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_btn_borderless_material.xml"
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_btn_borderless_material.xml"
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bo.png",
@@ -633,7 +653,7 @@
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
-        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_btn_colored_material.xml"
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_btn_colored_material.xml"
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
@@ -665,7 +685,7 @@
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
-        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_ratingbar_small_material.xml"
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_ratingbar_small_material.xml"
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_play_dark.xml",
@@ -681,7 +701,7 @@
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
-        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_ic_menu_overflow_material.xml"
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_connecting_mono_light.xml",
@@ -689,7 +709,7 @@
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_btn_check_material.xml"
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_btn_check_material.xml"
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\la.png",
@@ -709,7 +729,7 @@
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_item_background_holo_dark.xml"
+        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\PeriodicTable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ni.png",

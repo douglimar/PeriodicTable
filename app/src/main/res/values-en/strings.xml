@@ -29,4 +29,9 @@
     <string name="lantan_deos">Lanthanides</string>
     <string name="met_is_representativos">Representative Metals</string>
     <string name="actin_deos">Actinides</string>
+    <string name="z">Z</string>
+    <string name="name">Elemento</string>
+    <string name="pipe">|</string>
+    <string name="CJC_10">\"C  J/(g·K)\"</string>
+    <string name="x10">χ10</string>
 </resources>
