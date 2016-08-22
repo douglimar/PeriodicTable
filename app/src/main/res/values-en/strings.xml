@@ -9,7 +9,7 @@
     <string name="btnWikipedia">More info (Wikipedia)</string>
     <string name="hello_blank_fragment">Hello blank </string>
     <string name="image_description">Image not Found</string>
-    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_ad_unit_id">ca-app-pub-1098336821710456/5195031604</string>
     <string name="banner_ad_unit_TESTE">ca-app-pub-3940256099942544/6300978111</string>
     <string name="lr">Lr</string>
     <string name="tvAtomicWeight">Atomic Weight:</string>
@@ -44,4 +44,5 @@
     <string name="title_activity_activity_result">Activity Result</string>
     <string name="title_activity_fullscreen">FullScreenActivity</string>
     <string name="tvResultTitle">Periodic Table - Element Details</string>
+    <string name="network_connection">No Network connection. Check your network connection and try it again.</string>
 </resources>

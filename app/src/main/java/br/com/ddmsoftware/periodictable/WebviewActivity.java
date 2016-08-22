@@ -11,6 +11,9 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.ImageButton;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 import br.com.ddmsoftware.periodictable.util.SystemUiHider;
 
 public class WebviewActivity extends Activity {
@@ -51,7 +54,6 @@ public class WebviewActivity extends Activity {
         // Hiding Title Bar and Setting FullScreen Mode
         requestWindowFeature( Window.FEATURE_NO_TITLE);
         getWindow().setFlags( WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
-
         setContentView(R.layout.activity_webview);
 
         ImageButton imgBack = (ImageButton)findViewById(R.id.imgBtnWebViewBack);
@@ -63,9 +65,7 @@ public class WebviewActivity extends Activity {
             }
         });
 
-
         Intent intent = getIntent();
-
         Bundle extra = intent.getExtras();
         String url = extra.getString(ActivityResult.URL_MESSAGE);
 
@@ -84,6 +84,11 @@ public class WebviewActivity extends Activity {
             browser.setWebViewClient(new MyBrowser());
             browser.loadUrl(url);
         }
+
+        // Load Advertisement Banner
+        AdView mAdView = (AdView) findViewById(R.id.adViewBrowser);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
     }
 
     private class MyBrowser extends WebViewClient {

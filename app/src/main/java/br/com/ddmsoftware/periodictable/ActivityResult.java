@@ -1,6 +1,8 @@
 package br.com.ddmsoftware.periodictable;
 
+import android.content.Context;
 import android.content.Intent;
+import android.net.ConnectivityManager;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -12,6 +14,7 @@ import android.view.WindowManager;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
@@ -99,10 +102,16 @@ public class ActivityResult extends AppCompatActivity {
         imgBtnWiki.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(ActivityResult.this, WebviewActivity.class);
-                intent.putExtra(URL_MESSAGE, url);
 
-                startActivity(intent);
+                // Valida se a conexao com a internet existe
+                if (verificaConexao()) {
+                    Intent intent = new Intent(ActivityResult.this, WebviewActivity.class);
+                    intent.putExtra(URL_MESSAGE, url);
+
+                    startActivity(intent);
+                } else {
+                    Toast.makeText(ActivityResult.this,R.string.network_connection, Toast.LENGTH_LONG).show();
+                }
             }
         });
 
@@ -285,6 +294,21 @@ public class ActivityResult extends AppCompatActivity {
             case Uus : imgResult.setImageResource(iDefaultImageNotFound); break;
             case Uuo : imgResult.setImageResource(iDefaultImageNotFound); break;
         }
+    }
+
+    /* Função para verificar existência de conexão com a internet
+	 */
+    public  boolean verificaConexao() {
+        boolean conectado;
+        ConnectivityManager conectivtyManager = (ConnectivityManager) getSystemService( Context.CONNECTIVITY_SERVICE);
+        if (conectivtyManager.getActiveNetworkInfo() != null
+                && conectivtyManager.getActiveNetworkInfo().isAvailable()
+                && conectivtyManager.getActiveNetworkInfo().isConnected()) {
+            conectado = true;
+        } else {
+            conectado = false;
+        }
+        return conectado;
     }
 
 }

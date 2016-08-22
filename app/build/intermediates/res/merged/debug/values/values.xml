@@ -461,7 +461,7 @@
     <string name="app_name">Tabela Periódica</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="banner_ad_unit_TESTE">ca-app-pub-3940256099942544/6300978111</string>
-    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_ad_unit_id">ca-app-pub-1098336821710456/5195031604</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="btnBack">Voltar</string>
     <string name="btnShare">Compartilhar</string>
@@ -526,9 +526,16 @@
     <string name="create_calendar_message">Allow Ad to create a calendar event?</string>
     <string name="create_calendar_title">Create calendar event</string>
     <string name="decline">Decline</string>
+    <string name="default_web_client_id" translatable="false">90221104273-biogncmkj49uj26cmfvdh3265995ncrs.apps.googleusercontent.com</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="firebase_database_url" translatable="false">https://admob-app-id-7768880404.firebaseio.com</string>
     <string name="gases_nobres">Gases nobres</string>
+    <string name="gcm_defaultSenderId" translatable="false">90221104273</string>
+    <string name="google_api_key" translatable="false">AIzaSyA1CFPC6JmMVWY3gjJH98v7n1V23XV1DWQ</string>
+    <string name="google_app_id" translatable="false">1:90221104273:android:31134c658bc4f1ae</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA1CFPC6JmMVWY3gjJH98v7n1V23XV1DWQ</string>
+    <string name="google_storage_bucket" translatable="false">admob-app-id-7768880404.appspot.com</string>
     <string name="group">Grupo:</string>
     <string name="halogenios">Halogenios</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
@@ -552,6 +559,7 @@
     <string name="mr_user_route_category_name">Devices</string>
     <string name="n_o_metais">Não-metais</string>
     <string name="name">Elemento:</string>
+    <string name="network_connection">Sem conexão com a internet. Verifique sua conexão e tente novamente</string>
     <string name="originName">Origem do Nome:</string>
     <string name="pipe">|</string>
     <string name="place_autocomplete_clear_button">Clear search</string>

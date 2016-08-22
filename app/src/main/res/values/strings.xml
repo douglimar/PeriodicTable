@@ -15,7 +15,7 @@
     <string name="tvResultDensity">Densidade: </string>
     <string name="tvResultPontoFusao">Ponto de Fusão: </string>
     <string name="tvResultPontoEbulicao">Ponto de Ebulição: </string>
-    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_ad_unit_id">ca-app-pub-1098336821710456/5195031604</string>
     <string name="banner_ad_unit_TESTE">ca-app-pub-3940256099942544/6300978111</string>
     <string name="image_description">Image not Found</string>
     <string name="lr">Lr</string>
@@ -46,4 +46,5 @@
     <string name="CJC_10">C  J/(g·K):</string>
     <string name="x10">χ10:</string>
     <string name="tvResultTitle">Tabela Periódica - Detalhes do Elemento</string>
+    <string name="network_connection">Sem conexão com a internet. Verifique sua conexão e tente novamente</string>
 </resources>
