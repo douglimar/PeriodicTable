@@ -67,7 +67,7 @@ public class WebviewActivity extends Activity {
         Intent intent = getIntent();
 
         Bundle extra = intent.getExtras();
-        String url = extra.getString(ResultActivity2.URL_MESSAGE);
+        String url = extra.getString(ActivityResult.URL_MESSAGE);
 
         WebView browser = (WebView)findViewById(R.id.webView2);
 

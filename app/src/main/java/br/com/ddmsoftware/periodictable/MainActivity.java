@@ -1,15 +1,15 @@
 package br.com.ddmsoftware.periodictable;
 
-
-import br.com.ddmsoftware.periodictable.util.*;
 import android.annotation.TargetApi;
-import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
+import android.view.GestureDetector;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
@@ -27,35 +27,6 @@ import com.google.android.gms.common.api.GoogleApiClient;
 import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
-
-    /**
-     * Whether or not the system UI should be auto-hidden after
-     * {@link #AUTO_HIDE_DELAY_MILLIS} milliseconds.
-     */
-    private static final boolean AUTO_HIDE = true;
-
-    /**
-     * If {@link #AUTO_HIDE} is set, the number of milliseconds to wait after
-     * user interaction before hiding the system UI.
-     */
-    private static final int AUTO_HIDE_DELAY_MILLIS = 3000;
-
-    /**
-     * If set, will toggle the system UI visibility upon interaction. Otherwise,
-     * will show the system UI visibility upon interaction.
-     */
-    private static final boolean TOGGLE_ON_CLICK = true;
-
-    /**
-     * The flags to pass to {@link SystemUiHider#getInstance}.
-     */
-    private static final int HIDER_FLAGS = SystemUiHider.FLAG_HIDE_NAVIGATION;
-
-    /**
-     * The instance of the {@link SystemUiHider} for this activity.
-     */
-    private SystemUiHider mSystemUiHider;
-
 
     public static final String EXTRA_MESSAGE = "br.com.ddmsoftware.periodictable.MESSAGE";
 
@@ -208,6 +179,12 @@ public class MainActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_main);
 
+        // Create a AdView
+        // Load Advertisement Banner
+        AdView mAdView = (AdView) findViewById(R.id.adViewMain);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
+
         // Perhaps set content view here
         // To validate Application First Run (First boot)
         prefs = getSharedPreferences("br.com.ddmsoftware.periodictable", MODE_PRIVATE);
@@ -217,8 +194,6 @@ public class MainActivity extends AppCompatActivity {
         // DDM code
         String lang = Locale.getDefault().getDisplayLanguage();
 
-        //Toast.makeText(MainActivity.this, lang, Toast.LENGTH_SHORT).show();
-
         gridResult = (GridLayout) findViewById(R.id.gridResult);
 
         tvNroAtomico = (TextView) findViewById(R.id.tvNroAtomico);
@@ -226,7 +201,6 @@ public class MainActivity extends AppCompatActivity {
 
         tvNome = (TextView) findViewById(R.id.tvNome);
         tvMassa = (TextView) findViewById(R.id.tvMassa);
-        //wv = (WebView) findViewById(R.id.webView);
 
         imgFirstbootTuto = (ImageView) findViewById( R.id.imgTutorial );
 
@@ -236,12 +210,6 @@ public class MainActivity extends AppCompatActivity {
         //clearElementsTable();
 
         //wv.setVisibility(View.INVISIBLE);
-
-        // Create a AdView
-        // Load Advertisement Banner
-        AdView mAdView = (AdView) findViewById(R.id.adViewMain);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView.loadAd(adRequest);
 
         tvSimbolo.setOnClickListener(new View.OnClickListener() {
             @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
@@ -278,7 +246,6 @@ public class MainActivity extends AppCompatActivity {
                 onElementsClick();
             }
         });
-
 
         tvHydrogenium= (TextView) findViewById(R.id.tvHydrogenium);
         tvHelium= (TextView) findViewById(R.id.tvHelium);
@@ -1240,14 +1207,8 @@ public class MainActivity extends AppCompatActivity {
         tvMassa.setText(pt.Hydrogenium[8]); // Massa
 
         gridResult.setBackground( tvHydrogenium.getBackground());
+
 */
-
-        //showElementOnScreen(pt.Hydrogenium, tvHydrogenium);
-        //gridResult.setBackground(tvHydrogenium.getBackground());
-        message = pt.Hydrogenium[0] +";"+pt.Hydrogenium[1] +";"+pt.Hydrogenium[2] +";"+pt.Hydrogenium[3] +";"+pt.Hydrogenium[4] +";"+pt.Hydrogenium[5] +";"+
-                pt.Hydrogenium[6] +";"+pt.Hydrogenium[7] +";"+pt.Hydrogenium[8] +";"+pt.Hydrogenium[9] +";"+pt.Hydrogenium[10]+";"+pt.Hydrogenium[11]+";"+
-                pt.Hydrogenium[12]+";"+pt.Hydrogenium[13]+";"+pt.Hydrogenium[14]+";"+pt.Hydrogenium[15]+";"+pt.Hydrogenium[16];
-
         if ((!lang.equals("pt")) && (!lang.equals("português"))){
             pt.getAllEnglishElements();
             imgFirstbootTuto.setImageResource( R.drawable.setapequena_en );
@@ -1256,6 +1217,14 @@ public class MainActivity extends AppCompatActivity {
             pt.getAllPortugueseElements();
             imgFirstbootTuto.setImageResource( R.drawable.setapequena );
         }
+        //gridResult.setBackground(tvHydrogenium.getBackground());
+
+        //showElementOnScreen(pt.Hydrogenium, tvHydrogenium);
+
+        message = pt.Hydrogenium[0] +";"+pt.Hydrogenium[1] +";"+pt.Hydrogenium[2] +";"+pt.Hydrogenium[3] +";"+pt.Hydrogenium[4] +";"+pt.Hydrogenium[5] +";"+
+                pt.Hydrogenium[6] +";"+pt.Hydrogenium[7] +";"+pt.Hydrogenium[8] +";"+pt.Hydrogenium[9] +";"+pt.Hydrogenium[10]+";"+pt.Hydrogenium[11]+";"+
+                pt.Hydrogenium[12]+";"+pt.Hydrogenium[13]+";"+pt.Hydrogenium[14]+";"+pt.Hydrogenium[15]+";"+pt.Hydrogenium[16];
+
     }
 
     @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
@@ -1289,7 +1258,6 @@ public class MainActivity extends AppCompatActivity {
                   element[6] +";"+element[7] +";"+element[8] +";"+element[9] +";"+element[10]+";"+element[11]+";"+
                   element[12]+";"+element[13]+";"+element[14]+";"+element[15]+";"+element[16];
     }
-
 
     public void showMessage(String message) {
 
@@ -1345,7 +1313,7 @@ public class MainActivity extends AppCompatActivity {
         //Toast.makeText( MainActivity.this, "Estoy aki", Toast.LENGTH_SHORT ).show();
         //imgFirstbootTuto.setVisibility( View.INVISIBLE );
 
-        showElementOnScreen(pt.Hydrogenium, tvHydrogenium);
+        //showElementOnScreen(pt.Hydrogenium, tvHydrogenium);
 
 
         // Validate First Run of Application
@@ -1361,8 +1329,6 @@ public class MainActivity extends AppCompatActivity {
 
     private void onElementsClick(){
         imgFirstbootTuto.setVisibility( View.INVISIBLE );
-//        Intent intent = new Intent(MainActivity.this, ResultActivity2.class);
-//        Intent intent = new Intent(MainActivity.this, FullscreenActivity.class);
         Intent intent = new Intent(MainActivity.this, ActivityResult.class);
         intent.putExtra(EXTRA_MESSAGE, message);
         startActivity(intent);

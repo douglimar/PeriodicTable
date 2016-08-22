@@ -29,9 +29,19 @@
     <string name="lantan_deos">Lanthanides</string>
     <string name="met_is_representativos">Representative Metals</string>
     <string name="actin_deos">Actinides</string>
-    <string name="z">Z</string>
-    <string name="name">Elemento</string>
+    <string name="z">Z:</string>
+    <string name="name">Element:</string>
     <string name="pipe">|</string>
-    <string name="CJC_10">\"C  J/(g·K)\"</string>
-    <string name="x10">χ10</string>
+    <string name="CJC_10">C  J/(g·K):</string>
+    <string name="x10">χ10:</string>
+    <string name="abundancia">Abundance (mg/kg):</string>
+    <string name="action_settings">Settings</string>
+    <string name="advertisement">Advertsiment:</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY CONTENT</string>
+    <string name="group">Group:</string>
+    <string name="originName">Name Origin:</string>
+    <string name="title_activity_activity_result">Activity Result</string>
+    <string name="title_activity_fullscreen">FullScreenActivity</string>
+    <string name="tvResultTitle">Periodic Table - Element Details</string>
 </resources>

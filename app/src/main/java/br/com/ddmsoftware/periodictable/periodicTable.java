@@ -1998,7 +1998,7 @@ class periodicTable {
         Darmstadtium[16] = "ds";
         Roentgenium[0] = "111";
         Roentgenium[1] = "Rg";
-        Roentgenium[2] = "Roentgénio(Roentgênio)";
+        Roentgenium[2] = "Roentgênio";
         Roentgenium[3] = "Roentgenium";
         Roentgenium[4] = "Wilhelm Conrad Röntgen";
         Roentgenium[5] = "11";

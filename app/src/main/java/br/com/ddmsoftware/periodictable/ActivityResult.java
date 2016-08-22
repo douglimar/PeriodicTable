@@ -18,29 +18,27 @@ import com.google.android.gms.ads.AdView;
 
 public class ActivityResult extends AppCompatActivity {
 
-
     public static final String URL_MESSAGE = "br.com.ddmsoftware.periodictable.URLMESSAGE";
 
     private String url = "";
     private int iDefaultImageNotFound;
 
-    private TextView tvResult_info1;
-    private TextView tvResult_info2;
-    private TextView tvResult_info3;
-    private TextView tvResult_info4;
+    private TextView tvResult_Z;
     private TextView tvResult_Element;
+    private TextView tvResultGroup;
+    private TextView tvResultPeriod;
+    private TextView tvResult_Element1;
 
-    private TextView tvResult_info6;
-    private TextView tvResult_info7;
-    private TextView tvResult_info8;
-    private TextView tvResult_info9;
-    private TextView tvResult_info10;
-    private TextView tvResult_info11;
-    private TextView tvResult_info12;
-    private TextView tvResult_info13;
-    private TextView tvResult_info14;
-    private TextView tvResult_info15;
-
+    private TextView tvResult_Element2;
+    private TextView tvResult_LatimName;
+    private TextView tvResultOriginName;
+    private TextView tvResultAtomicWeigth;
+    private TextView tvResultDensidade;
+    private TextView tvResultFusao;
+    private TextView tvResultEbulicao;
+    private TextView tvResult_Abundancia;
+    private TextView tvResult_CJ;
+    private TextView tvResult_X10;
 
     private ImageView imgResult;
 
@@ -52,48 +50,61 @@ public class ActivityResult extends AppCompatActivity {
         Ds,Rg, Cn, Uut, Fl, Uup, Lv, Uus, Uuo
     }
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate( savedInstanceState );
 
-
+        // Setting a FullScreen Window
         requestWindowFeature( Window.FEATURE_NO_TITLE);
-        //requestWindowFeature( Window.FEATURE_CUSTOM_TITLE);
-
         getWindow().setFlags( WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         setContentView( R.layout.activity_activity_result );
         Toolbar toolbar = (Toolbar) findViewById( R.id.toolbar );
         setSupportActionBar( toolbar );
 
+        tvResult_Z = (TextView) findViewById(R.id.tvResultZ);
+        tvResult_Element = (TextView) findViewById(R.id.tvResultElement);
+        tvResultGroup = (TextView) findViewById(R.id.tvResultGroup);
+        tvResultPeriod = (TextView) findViewById(R.id.tvResultPeriod);
+        tvResult_Element1 = (TextView) findViewById(R.id.tvResultElement1);
 
-
-        tvResult_info1 = (TextView) findViewById(R.id.tvResultZ);
-        tvResult_info2 = (TextView) findViewById(R.id.tvResultElement);
-        tvResult_info3 = (TextView) findViewById(R.id.tvResultGroup);
-        tvResult_info4 = (TextView) findViewById(R.id.tvResultPeriod);
-        tvResult_Element = (TextView) findViewById(R.id.tvResultElement1);
-
-        tvResult_info6 = (TextView) findViewById(R.id.tvResult_Element2);
-        tvResult_info7 = (TextView) findViewById(R.id.tvResult_LatimName);
-        tvResult_info8 = (TextView) findViewById(R.id.tvResultOriginName);
-        tvResult_info9 = (TextView) findViewById(R.id.tvResultAtomicWeigth);
-        tvResult_info10 = (TextView) findViewById(R.id.tvResultDensidade);
-        tvResult_info11 = (TextView) findViewById(R.id.tvResultFusao);
-        tvResult_info12 = (TextView) findViewById(R.id.tvResultEbulicao);
-        tvResult_info13 = (TextView) findViewById(R.id.tvResult_Abundancia);
-        tvResult_info14 = (TextView) findViewById(R.id.tvResult_CJ);
-        tvResult_info15 = (TextView) findViewById(R.id.tvResult_X10);
+        tvResult_Element2 = (TextView) findViewById(R.id.tvResult_Element2);
+        tvResult_LatimName = (TextView) findViewById(R.id.tvResult_LatimName);
+        tvResultOriginName = (TextView) findViewById(R.id.tvResultOriginName);
+        tvResultAtomicWeigth = (TextView) findViewById(R.id.tvResultAtomicWeigth);
+        tvResultDensidade = (TextView) findViewById(R.id.tvResultDensidade);
+        tvResultFusao = (TextView) findViewById(R.id.tvResultFusao);
+        tvResultEbulicao = (TextView) findViewById(R.id.tvResultEbulicao);
+        tvResult_Abundancia = (TextView) findViewById(R.id.tvResult_Abundancia);
+        tvResult_CJ = (TextView) findViewById(R.id.tvResult_CJ);
+        tvResult_X10 = (TextView) findViewById(R.id.tvResult_X10);
 
         imgResult = (ImageView) findViewById(R.id.imgViewResult);
         //TODO: Validar o IDIOMA antes de configurar a Imagem Padrao
 
         iDefaultImageNotFound = R.drawable.img_not_found;
-        //imgResult.setImageResource(iImageFromResource);
 
-        //ImageButton imgBtnBack = (ImageButton) findViewById(R.id.imgBtnBack);
+        ImageButton imgBtnBack = (ImageButton) findViewById(R.id.imgBtnBack);
+
+        imgBtnBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
+
+        ImageButton imgBtnWiki = (ImageButton) findViewById(R.id.imgBtnWiki);
+
+
+        imgBtnWiki.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(ActivityResult.this, WebviewActivity.class);
+                intent.putExtra(URL_MESSAGE, url);
+
+                startActivity(intent);
+            }
+        });
 
         receiveDataFromActivity();
 
@@ -101,17 +112,6 @@ public class ActivityResult extends AppCompatActivity {
         AdView mAdView = (AdView) findViewById(R.id.adViewResult);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
-
-
-
-        FloatingActionButton fab = (FloatingActionButton) findViewById( R.id.fab );
-        fab.setOnClickListener( new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make( view, "Replace with your own action", Snackbar.LENGTH_LONG )
-                        .setAction( "Action", null ).show();
-            }
-        } );
     }
 
     private void receiveDataFromActivity() {
@@ -124,7 +124,6 @@ public class ActivityResult extends AppCompatActivity {
         C10 (J/(g·K))[12]	    χ10[13]                 Abundance (mg/kg)[14]
         URL[15]	                Image[16]*/
 
-        //WebView browser = (WebView) findViewById(R.id.webView);
         String[] aResult;
 
         Intent intent = getIntent();
@@ -136,31 +135,24 @@ public class ActivityResult extends AppCompatActivity {
 
         tvResult_Element.setText(aResult[2] + " (" + aResult[1] +")");
 
-        tvResult_info1.setText(aResult[0]);
-        tvResult_info2.setText(aResult[2] + " (" + aResult[1] +")"); // "Nome em Latim: "
-        tvResult_info3.setText(aResult[5]+ "-" + aResult[6]); //"Origem do Nome: " +
-        tvResult_info4.setText(aResult[7]); //"Nome do Grupo: " +
+        tvResult_Z.setText(aResult[0]);
+        tvResult_Element.setText(aResult[2] + " (" + aResult[1] +")"); // "Nome em Latim: "
+        tvResultGroup.setText(aResult[5]+ "-" + aResult[6]); // Group  + Group name
+        tvResultPeriod.setText(aResult[7]); //Period
 
+        tvResult_Element1.setText(aResult[2] + " (" + aResult[1] +")"); //Element
 
-        tvResult_info6.setText(aResult[2] + " (" + aResult[1] +")"); //"Massa Atômica: " +
-        tvResult_info7.setText(aResult[3]); //"Densidade: " +
-        tvResult_info8.setText(aResult[8]);//"Ponto de Fusão: " +
-        tvResult_info9.setText(aResult[11]); //"Ponto de Ebulicao: " +
-        tvResult_info10.setText(aResult[11]); //"Ponto de Ebulicao: " +
-        tvResult_info11.setText(aResult[11]); //"Ponto de Ebulicao: " +
-        tvResult_info12.setText(aResult[11]); //"Ponto de Ebulicao: " +
-        tvResult_info13.setText(aResult[11]); //"Ponto de Ebulicao: " +
-        tvResult_info14.setText(aResult[11]); //"Ponto de Ebulicao: " +
-        tvResult_info15.setText(aResult[11]); //"Ponto de Ebulicao: " +
+        tvResult_Element2.setText(aResult[2] + " (" + aResult[1] +")"); // Element
+        tvResult_LatimName.setText(aResult[3]);//Latim name
+        tvResultOriginName.setText(aResult[4]); //Origin name
+        tvResultAtomicWeigth.setText(aResult[8]); //Atomic Weight
 
-
-        tvResult_info10 = (TextView) findViewById(R.id.tvResultDensidade);
-        tvResult_info11 = (TextView) findViewById(R.id.tvResultFusao);
-        tvResult_info12 = (TextView) findViewById(R.id.tvResultEbulicao);
-        tvResult_info13 = (TextView) findViewById(R.id.tvResult_Abundancia);
-        tvResult_info14 = (TextView) findViewById(R.id.tvResult_CJ);
-        tvResult_info15 = (TextView) findViewById(R.id.tvResult_X10);
-
+        tvResultDensidade.setText(aResult[9]); // Density
+        tvResultFusao.setText(aResult[10]); //"Ponto de Ebulicao: " +
+        tvResultEbulicao.setText(aResult[11]); //"Ponto de Ebulicao: " +
+        tvResult_Abundancia.setText(aResult[14]); //"Ponto de Ebulicao: " +
+        tvResult_CJ.setText(aResult[12]); //"Ponto de Ebulicao: " +
+        tvResult_X10.setText(aResult[13]); //"Ponto de Ebulicao: " +
 
         url = aResult[15];
 
