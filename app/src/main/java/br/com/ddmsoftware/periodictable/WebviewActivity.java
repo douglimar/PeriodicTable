@@ -103,8 +103,8 @@ public class WebviewActivity extends Activity {
             return true;
         }
 
-        ProgressDialog dialog = ProgressDialog.show(WebviewActivity.this, "",
-                "Loading. Please wait...", true);
+        String message = getResources().getString(R.string.loading );
+        ProgressDialog dialog = ProgressDialog.show(WebviewActivity.this, "", message, true);
 
         @Override
         public void onPageFinished(WebView view, String url) {

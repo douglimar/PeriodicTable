@@ -422,7 +422,7 @@ public final class R {
 		public static final int plain = 0x7f0e005f;
 		public static final int production = 0x7f0e006f;
 		public static final int progressBar = 0x7f0e0169;
-		public static final int radio = 0x7f0e0134;
+		public static final int radio = 0x7f0e00a1;
 		public static final int rfc822 = 0x7f0e0060;
 		public static final int sandbox = 0x7f0e0070;
 		public static final int satellite = 0x7f0e0057;
@@ -456,22 +456,22 @@ public final class R {
 		public static final int google_play_services_version = 0x7f0b0007;
 	}
 	public static final class layout {
-		public static final int cast_expanded_controller_activity = 0x7f04001f;
-		public static final int cast_help_text = 0x7f040020;
-		public static final int cast_intro_overlay = 0x7f040021;
-		public static final int cast_mini_controller = 0x7f040022;
-		public static final int cast_tracks_chooser_dialog_layout = 0x7f040023;
-		public static final int cast_tracks_chooser_dialog_row_layout = 0x7f040024;
-		public static final int place_autocomplete_fragment = 0x7f04003e;
-		public static final int place_autocomplete_item_powered_by_google = 0x7f04003f;
-		public static final int place_autocomplete_item_prediction = 0x7f040040;
-		public static final int place_autocomplete_progress = 0x7f040041;
+		public static final int cast_expanded_controller_activity = 0x7f04001e;
+		public static final int cast_help_text = 0x7f04001f;
+		public static final int cast_intro_overlay = 0x7f040020;
+		public static final int cast_mini_controller = 0x7f040021;
+		public static final int cast_tracks_chooser_dialog_layout = 0x7f040022;
+		public static final int cast_tracks_chooser_dialog_row_layout = 0x7f040023;
+		public static final int place_autocomplete_fragment = 0x7f04003d;
+		public static final int place_autocomplete_item_powered_by_google = 0x7f04003e;
+		public static final int place_autocomplete_item_prediction = 0x7f04003f;
+		public static final int place_autocomplete_progress = 0x7f040040;
 	}
 	public static final class raw {
 		public static final int gtm_analytics = 0x7f060000;
 	}
 	public static final class string {
-		public static final int accept = 0x7f070092;
+		public static final int accept = 0x7f070093;
 		public static final int cast_casting_to_device = 0x7f070013;
 		public static final int cast_closed_captions = 0x7f070014;
 		public static final int cast_closed_captions_unavailable = 0x7f070015;
@@ -482,8 +482,8 @@ public final class R {
 		public static final int cast_forward_10 = 0x7f07001a;
 		public static final int cast_forward_30 = 0x7f07001b;
 		public static final int cast_intro_overlay_button_text = 0x7f07001c;
-		public static final int cast_invalid_stream_duration_text = 0x7f070095;
-		public static final int cast_invalid_stream_position_text = 0x7f070096;
+		public static final int cast_invalid_stream_duration_text = 0x7f070096;
+		public static final int cast_invalid_stream_position_text = 0x7f070097;
 		public static final int cast_mute = 0x7f07001d;
 		public static final int cast_notification_connected_message = 0x7f07001e;
 		public static final int cast_notification_connecting_message = 0x7f07001f;
@@ -528,16 +528,16 @@ public final class R {
 		public static final int common_open_on_phone = 0x7f070046;
 		public static final int common_signin_button_text = 0x7f070047;
 		public static final int common_signin_button_text_long = 0x7f070048;
-		public static final int create_calendar_message = 0x7f070098;
-		public static final int create_calendar_title = 0x7f070099;
-		public static final int decline = 0x7f07009a;
+		public static final int create_calendar_message = 0x7f070099;
+		public static final int create_calendar_title = 0x7f07009a;
+		public static final int decline = 0x7f07009b;
 		public static final int place_autocomplete_clear_button = 0x7f070054;
 		public static final int place_autocomplete_search_hint = 0x7f070055;
-		public static final int store_picture_message = 0x7f0700a2;
-		public static final int store_picture_title = 0x7f0700a3;
-		public static final int tagmanager_preview_dialog_button = 0x7f0700a4;
-		public static final int tagmanager_preview_dialog_message = 0x7f0700a5;
-		public static final int tagmanager_preview_dialog_title = 0x7f0700a6;
+		public static final int store_picture_message = 0x7f0700a3;
+		public static final int store_picture_title = 0x7f0700a4;
+		public static final int tagmanager_preview_dialog_button = 0x7f0700a5;
+		public static final int tagmanager_preview_dialog_message = 0x7f0700a6;
+		public static final int tagmanager_preview_dialog_title = 0x7f0700a7;
 		public static final int wallet_buy_button_place_holder = 0x7f070058;
 	}
 	public static final class style {
