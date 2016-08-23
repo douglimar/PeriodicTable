@@ -30,7 +30,6 @@
     <string name="n_o_metais">Não-metais</string>
     <string name="halogenios">Halogenios</string>
     <string name="gases_nobres">Gases nobres</string>
-
     <string name="title_activity_fullscreen">FullscreenActivity</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
@@ -47,4 +46,6 @@
     <string name="x10">χ10:</string>
     <string name="tvResultTitle">Tabela Periódica - Detalhes do Elemento</string>
     <string name="network_connection">Sem conexão com a internet. Verifique sua conexão e tente novamente</string>
+
+    <string name="title_activity_splash">Splash</string>
 </resources>

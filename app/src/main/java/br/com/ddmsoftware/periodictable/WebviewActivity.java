@@ -1,9 +1,12 @@
 package br.com.ddmsoftware.periodictable;
 
 import android.app.Activity;
+import android.app.ProgressDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.KeyEvent;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
@@ -92,11 +95,20 @@ public class WebviewActivity extends Activity {
     }
 
     private class MyBrowser extends WebViewClient {
+
         @Override
         // Configura Navegacao dentro do WebView, ao inves de navegacao no Browser
         public boolean shouldOverrideUrlLoading(WebView view, String url) {
             view.loadUrl(url);
             return true;
+        }
+
+        ProgressDialog dialog = ProgressDialog.show(WebviewActivity.this, "",
+                "Loading. Please wait...", true);
+
+        @Override
+        public void onPageFinished(WebView view, String url) {
+            dialog.dismiss();
         }
     }
 }

@@ -574,6 +574,7 @@
     <string name="tagmanager_preview_dialog_title">Preview</string>
     <string name="title_activity_activity_result">ActivityResult</string>
     <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="title_activity_splash">Splash</string>
     <string name="tvAtomicWeight">Massa Atômica: </string>
     <string name="tvResultDensity">Densidade: </string>
     <string name="tvResultGroupName">Nome do Grupo: </string>
