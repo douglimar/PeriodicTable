@@ -72,13 +72,15 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/linearLayoutButtons"
                 android:gravity="center_horizontal"
-                android:layout_margin="5dp">
+                android:layout_margin="5dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp">
 
                 <ImageButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/imgBtnBack"
-                    android:src="@drawable/back"
+                    android:src="@drawable/back2"
                     android:background="#ffffff"
                     android:layout_margin="5dp"/>
 
@@ -94,7 +96,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/imgBtnWiki"
-                    android:src="@drawable/wiki"
+                    android:src="@drawable/wiki2"
                     android:background="#ffffff"
                     android:layout_margin="5dp"/>
 

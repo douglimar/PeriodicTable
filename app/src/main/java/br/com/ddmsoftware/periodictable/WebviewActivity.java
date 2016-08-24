@@ -49,7 +49,6 @@ public class WebviewActivity extends Activity {
      */
     private SystemUiHider mSystemUiHider;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

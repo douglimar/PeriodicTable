@@ -4145,6 +4145,4 @@ class periodicTable {
         Ununoctium[15] = "https://en.wikipedia.org/wiki/Ununoctium";
         Ununoctium[16] = "uuo";
     }
-
-
 }

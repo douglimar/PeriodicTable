@@ -374,6 +374,7 @@ public class MainActivity extends AppCompatActivity {
                 showElementOnScreen(pt.Hydrogenium, tvHydrogenium);
             }
         });
+
         tvHelium.setOnClickListener(new View.OnClickListener() {
             @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
             @Override
@@ -1193,6 +1194,956 @@ public class MainActivity extends AppCompatActivity {
                 showElementOnScreen(pt.Ununoctium, tvUnunoctium);
             }
         });
+
+        // Implementation of OnLongClick_Listener
+
+        tvHydrogenium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Hydrogenium, tvHydrogenium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvHelium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Helium, tvHelium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvLithium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Lithium, tvLithium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvBeryllium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Beryllium, tvBeryllium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvBorium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Borium, tvBorium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvCarbonium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Carbonium, tvCarbonium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvNitrogenium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Nitrogenium, tvNitrogenium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvOxygenium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Oxygenium, tvOxygenium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvFluorum.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Fluorum, tvFluorum);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvNeon.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Neon, tvNeon);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvNatrium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Natrium, tvNatrium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvMagnesium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Magnesium, tvMagnesium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvAlumen.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Alumen, tvAlumen);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvSilicium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Silicium, tvSilicium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvPhosphorus.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Phosphorus, tvPhosphorus);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvSulphur.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Sulphur, tvSulphur);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvClorum.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Clorum, tvClorum);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvArgon.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Argon, tvArgon);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvKalium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Kalium, tvKalium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvCalcium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Calcium, tvCalcium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvScandium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Scandium, tvScandium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvTitanium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Titanium, tvTitanium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvVanadium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Vanadium, tvVanadium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvChromium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Chromium, tvChromium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvManganum.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Manganum, tvManganum);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvFerrum.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Ferrum, tvFerrum);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvCobaltum.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Cobaltum, tvCobaltum);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvNiccolum.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Niccolum, tvNiccolum);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvCuprum.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Cuprum, tvCuprum);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvZincum.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Zincum, tvZincum);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvGalium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Galium, tvGalium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvGermanium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Germanium, tvGermanium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvArsenicum.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Arsenicum, tvArsenicum);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvSelenium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Selenium, tvSelenium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvBromum.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Bromum, tvBromum);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvKrypton.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Krypton, tvKrypton);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvRubidium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Rubidium, tvRubidium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvStrontium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Strontium, tvStrontium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvYttrium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Yttrium, tvYttrium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvZirconium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Zirconium, tvZirconium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvNiobium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Niobium, tvNiobium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvMolybdenum.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Molybdenum, tvMolybdenum);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvTechnetium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Technetium, tvTechnetium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvRuthenium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Ruthenium, tvRuthenium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvRhodium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Rhodium, tvRhodium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvPalladium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Palladium, tvPalladium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvArgentum.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Argentum, tvArgentum);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvCadmium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Cadmium, tvCadmium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvIndium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Indium, tvIndium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvStannum.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Stannum, tvStannum);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvStibium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Stibium, tvStibium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvTellurium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Tellurium, tvTellurium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvIodum.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Iodum, tvIodum);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvXenon.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Xenon, tvXenon);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvCaesium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Caesium, tvCaesium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvBarium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Barium, tvBarium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvLanthanum.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Lanthanum, tvLanthanum);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvCerium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Cerium, tvCerium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvPraseodymium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Praseodymium, tvPraseodymium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvNeodymium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Neodymium, tvNeodymium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvPromethium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Promethium, tvPromethium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvSamarium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Samarium, tvSamarium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvEuropium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Europium, tvEuropium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvGadolinium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Gadolinium, tvGadolinium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvTerbium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Terbium, tvTerbium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvDysprosium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Dysprosium, tvDysprosium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvHolmium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Holmium, tvHolmium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvErbium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Erbium, tvErbium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvThulium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Thulium, tvThulium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvYtterbium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Ytterbium, tvYtterbium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvLutetium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Lutetium, tvLutetium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvHafnium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Hafnium, tvHafnium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvTantalum.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Tantalum, tvTantalum);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvWolframium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Wolframium, tvWolframium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvRhenium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Rhenium, tvRhenium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvOsmium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Osmium, tvOsmium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvIridium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Iridium, tvIridium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvPlatinum.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Platinum, tvPlatinum);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvAurum.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Aurum, tvAurum);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvHydrargyrum.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Hydrargyrum, tvHydrargyrum);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvThallium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Thallium, tvThallium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvPlumbum.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Plumbum, tvPlumbum);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvBismuthum.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Bismuthum, tvBismuthum);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvPolonium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Polonium, tvPolonium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvAstatum.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Astatum, tvAstatum);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvRadon.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Radon, tvRadon);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvFrancium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Francium, tvFrancium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvRadium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Radium, tvRadium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvActinium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Actinium, tvActinium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvThorium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Thorium, tvThorium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvProtactinium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Protactinium, tvProtactinium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvUranium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Uranium, tvUranium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvNeptunium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Neptunium, tvNeptunium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvPlutonium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Plutonium, tvPlutonium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvAmericium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Americium, tvAmericium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvCurium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Curium, tvCurium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvBerkelium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Berkelium, tvBerkelium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvCalifornium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Californium, tvCalifornium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvEinsteinium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Einsteinium, tvEinsteinium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvFermium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Fermium, tvFermium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvMendelevium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Mendelevium, tvMendelevium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvNobelium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Nobelium, tvNobelium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvLawrencium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Lawrencium, tvLawrencium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvRhuterfordium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Rhuterfordium, tvRhuterfordium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvDubnium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Dubnium, tvDubnium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvSeaborgium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Seaborgium, tvSeaborgium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvBohrium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Bohrium, tvBohrium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvHassium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Hassium, tvHassium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvMeitnerium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Meitnerium, tvMeitnerium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvDarmstadtium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Darmstadtium, tvDarmstadtium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvRoentgenium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Roentgenium, tvRoentgenium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvCopernicium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Copernicium, tvCopernicium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvUnuntrium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Ununtrium, tvUnuntrium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvFlerovium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Flerovium, tvFlerovium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvUnunpentium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Ununpentium, tvUnunpentium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvLivermorium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Livermorium, tvLivermorium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvUnunsentium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Ununsentium, tvUnunsentium);
+                onElementsClick();
+                return true;
+            }
+        });
+        tvUnunoctium.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                showElementOnScreen(pt.Ununoctium, tvUnunoctium);
+                onElementsClick();
+                return true;
+            }
+        });
+
+
+
 
         // ATTENTION: This was auto-generated to implement the App Indexing API.
         // See https://g.co/AppIndexing/AndroidStudio for more information.

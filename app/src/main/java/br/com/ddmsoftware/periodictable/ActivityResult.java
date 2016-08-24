@@ -83,7 +83,6 @@ public class ActivityResult extends AppCompatActivity {
         tvResult_X10 = (TextView) findViewById(R.id.tvResult_X10);
 
         imgResult = (ImageView) findViewById(R.id.imgViewResult);
-        //TODO: Validar o IDIOMA antes de configurar a Imagem Padrao
 
         iDefaultImageNotFound = R.drawable.img_not_found;
 
@@ -114,6 +113,10 @@ public class ActivityResult extends AppCompatActivity {
                 }
             }
         });
+
+        ImageButton imgBtnShare = (ImageButton) findViewById(R.id.imgBtnShare);
+        imgBtnShare.setVisibility( View.INVISIBLE );
+
 
         receiveDataFromActivity();
 

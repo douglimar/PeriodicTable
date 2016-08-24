@@ -46,7 +46,6 @@
     <string name="x10">χ10:</string>
     <string name="tvResultTitle">Tabela Periódica - Detalhes do Elemento</string>
     <string name="network_connection">Sem conexão com a internet. Verifique sua conexão e tente novamente</string>
-
     <string name="title_activity_splash">Splash</string>
     <string name="loading">Carregando. Por favor, aguarde...</string>
 </resources>
